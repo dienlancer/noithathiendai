@@ -1,8 +1,4 @@
-<?php 
-     global $zController;
-
-?>
- <?php get_header();?>
+<?php get_header();?>
  <div class="container margin-top-15 margin-bottom-15">
  	<div class="col-lg-3 no-padding page-left">
  		<?php if(is_active_sidebar('category-article-widget')):?>

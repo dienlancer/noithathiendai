@@ -567,63 +567,76 @@ if(!empty($instance['item_id'])){
 			break;	
 			case "customer-widget":		
 			?>
-			<script type="text/javascript" language="javascript">
-				jQuery(document).ready(function(){
-					jQuery(".owl-carousel-customer").owlCarousel({
-						autoplay:false,                    
-						loop:true,
-						margin:10,                        
-						nav:true,                                            
-						responsiveClass:true,
-						responsive:{
-							0:{
-								items:1,
-								nav:true
-							},
-							600:{
-								items:1,
-								nav:false
-							},
-							1000:{
-								items:1,
-								nav:true,
-								loop:false
+			<div class="twitter">
+				<div class="container">
+					<script type="text/javascript" language="javascript">
+						jQuery(document).ready(function(){
+							jQuery(".owl-carousel-customer").owlCarousel({
+								autoplay:false,                    
+								loop:true,
+								margin:10,                        
+								nav:true,                                            
+								responsiveClass:true,
+								responsive:{
+									0:{
+										items:1,
+										nav:true
+									},
+									600:{
+										items:1,
+										nav:false
+									},
+									1000:{
+										items:1,
+										nav:true,
+										loop:false
+									}
+								}
+							})
+						});                
+					</script>
+					<div class="owl-carousel owl-carousel-customer owl-theme">
+						<?php 
+						$args = array(
+							'post__in' => $arrItemID,
+							'post_type' => 'post'
+						);			 
+						$query = new WP_Query($args);							
+						if($query->have_posts()){
+							while ($query->have_posts()) {
+								$query->the_post();		
+								$post_id=$query->post->ID;							
+								$permalink=get_the_permalink($post_id);
+								$title=get_the_title($post_id);
+								$excerpt=get_post_meta($post_id,$post_meta_key."intro",true);
+								$content=get_the_content($post_id);        
+								$featureImg=wp_get_attachment_url(get_post_thumbnail_id($post_id));
+								$featureImg=$vHtml->getFileName($featureImg);									
+								$featureImg=site_url( '/wp-content/uploads/'.$featureImg, null ) ; 								
+								?>
+								<div class="user-info-blog-comment">
+									<div class="user-comment-info">
+										<div class="col-xs-4 no-padding"><img src="<?php echo $featureImg; ?>" /></div>
+										<div class="col-xs-8 no-padding-right">
+											<div><?php echo $title; ?></div>
+											<div><?php echo $excerpt; ?></div>
+										</div>
+										<div class="clr"></div>
+									</div>
+									<div class="comment margin-top-15">
+										
+					<?php echo $content; ?>
+				
+									</div>
+								</div> 
+								<?php
 							}
-						}
-					})
-				});                
-			</script>
-			<div class="owl-carousel owl-carousel-customer owl-theme">
-				<?php 
-				$args = array(
-					'post__in' => $arrItemID,
-					'post_type' => 'post'
-				);			 
-				$query = new WP_Query($args);							
-				if($query->have_posts()){
-					while ($query->have_posts()) {
-						$query->the_post();		
-						$post_id=$query->post->ID;							
-						$permalink=get_the_permalink($post_id);
-						$title=get_the_title($post_id);
-						$excerpt=get_post_meta($post_id,$post_meta_key."intro",true);
-						$featureImg=wp_get_attachment_url(get_post_thumbnail_id($post_id));
-						$featureImg=$vHtml->getFileName($featureImg);									
-						$featureImg=site_url( '/wp-content/uploads/'.$featureImg, null ) ; 								
+							wp_reset_postdata();  
+						}				
 						?>
-						<div>
-							<div class="col-md-2"><center><img src="<?php echo $featureImg; ?>" /></center></div>
-							<div class="col-md-10">
-								<div class="customer-name"><?php echo $title; ?></div>
-								<div class="customer-comment margin-top-5"><?php echo $excerpt; ?></div>
-							</div>
-						</div> 
-						<?php
-					}
-					wp_reset_postdata();  
-				}				
-				?>
-			</div>
+					</div>
+				</div>				
+			</div>			
 			<?php					
 			break;			
 			case 'category-article-widget':

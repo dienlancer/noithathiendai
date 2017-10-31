@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 31, 2017 lúc 07:28 PM
+-- Thời gian đã tạo: Th10 31, 2017 lúc 09:22 PM
 -- Phiên bản máy phục vụ: 10.1.22-MariaDB
 -- Phiên bản PHP: 7.1.4
 
@@ -218,7 +218,7 @@ INSERT INTO `mp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (96, 'widget_recent-comments', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (97, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (98, 'widget_meta', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(99, 'sidebars_widgets', 'a:27:{s:20:\"category-left-widget\";a:1:{i:0;s:14:\"module-item-14\";}s:19:\"wp_inactive_widgets\";a:0:{}s:15:\"user-top-widget\";a:0:{}s:13:\"search-widget\";a:1:{i:0;s:15:\"module-common-2\";}s:14:\"contact-widget\";a:0:{}s:19:\"sale-product-widget\";a:1:{i:0;s:13:\"module-item-3\";}s:23:\"featured-product-widget\";a:1:{i:0;s:13:\"module-item-2\";}s:16:\"slideshow-widget\";a:1:{i:0;s:15:\"module-common-3\";}s:15:\"category-widget\";a:0:{}s:15:\"hot-news-widget\";a:1:{i:0;s:14:\"module-item-13\";}s:23:\"featured-article-widget\";a:0:{}s:20:\"contact-order-widget\";a:0:{}s:14:\"partner-widget\";a:1:{i:0;s:14:\"module-item-11\";}s:18:\"instruction-widget\";a:0:{}s:17:\"phong-thuy-widget\";a:0:{}s:13:\"slogan-widget\";a:0:{}s:23:\"facebook-fanpage-widget\";a:1:{i:0;s:13:\"custom_html-2\";}s:17:\"copy-right-widget\";a:1:{i:0;s:13:\"custom_html-3\";}s:15:\"rau-sach-widget\";a:1:{i:0;s:13:\"module-item-8\";}s:15:\"customer-widget\";a:1:{i:0;s:14:\"module-item-12\";}s:12:\"about-widget\";a:1:{i:0;s:15:\"module-common-4\";}s:23:\"category-article-widget\";a:2:{i:0;s:15:\"module-common-5\";i:1;s:14:\"module-item-15\";}s:23:\"category-product-widget\";a:2:{i:0;s:15:\"module-common-6\";i:1;s:14:\"module-item-16\";}s:13:\"tu-van-widget\";a:1:{i:0;s:15:\"module-common-7\";}s:23:\"thiet-bi-ve-sinh-widget\";a:1:{i:0;s:14:\"module-item-17\";}s:19:\"thiet-bi-bep-widget\";a:1:{i:0;s:14:\"module-item-18\";}s:13:\"array_version\";i:3;}', 'yes'),
+(99, 'sidebars_widgets', 'a:28:{s:20:\"category-left-widget\";a:1:{i:0;s:14:\"module-item-14\";}s:19:\"wp_inactive_widgets\";a:0:{}s:15:\"user-top-widget\";a:0:{}s:13:\"search-widget\";a:1:{i:0;s:15:\"module-common-2\";}s:14:\"contact-widget\";a:0:{}s:19:\"sale-product-widget\";a:1:{i:0;s:13:\"module-item-3\";}s:23:\"featured-product-widget\";a:1:{i:0;s:13:\"module-item-2\";}s:16:\"slideshow-widget\";a:1:{i:0;s:15:\"module-common-3\";}s:15:\"category-widget\";a:0:{}s:15:\"hot-news-widget\";a:1:{i:0;s:14:\"module-item-13\";}s:23:\"featured-article-widget\";a:0:{}s:20:\"contact-order-widget\";a:0:{}s:14:\"partner-widget\";a:1:{i:0;s:14:\"module-item-11\";}s:18:\"instruction-widget\";a:0:{}s:17:\"phong-thuy-widget\";a:0:{}s:13:\"slogan-widget\";a:0:{}s:23:\"facebook-fanpage-widget\";a:1:{i:0;s:13:\"custom_html-2\";}s:17:\"copy-right-widget\";a:1:{i:0;s:13:\"custom_html-3\";}s:15:\"rau-sach-widget\";a:1:{i:0;s:13:\"module-item-8\";}s:15:\"customer-widget\";a:1:{i:0;s:14:\"module-item-12\";}s:12:\"about-widget\";a:1:{i:0;s:15:\"module-common-4\";}s:23:\"category-article-widget\";a:2:{i:0;s:15:\"module-common-5\";i:1;s:14:\"module-item-15\";}s:23:\"category-product-widget\";a:2:{i:0;s:15:\"module-common-6\";i:1;s:14:\"module-item-16\";}s:13:\"tu-van-widget\";a:1:{i:0;s:15:\"module-common-7\";}s:23:\"thiet-bi-ve-sinh-widget\";a:1:{i:0;s:14:\"module-item-17\";}s:19:\"thiet-bi-bep-widget\";a:1:{i:0;s:14:\"module-item-18\";}s:19:\"clever-house-widget\";a:1:{i:0;s:14:\"module-item-19\";}s:13:\"array_version\";i:3;}', 'yes'),
 (100, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (101, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (102, 'widget_media_audio', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -235,7 +235,7 @@ INSERT INTO `mp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (142, 'theme_switched', '', 'yes'),
 (145, 'recently_activated', 'a:1:{s:45:\"ckeditor-for-wordpress/ckeditor_wordpress.php\";i:1509358261;}', 'yes'),
 (150, 'widget_module-common', 'a:7:{i:2;a:6:{s:5:\"title\";s:11:\"Tìm kiếm\";s:12:\"title_status\";s:8:\"inactive\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:13:\"search-widget\";s:3:\"css\";s:6:\"search\";}i:3;a:6:{s:5:\"title\";s:9:\"Slideshow\";s:12:\"title_status\";s:8:\"inactive\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:16:\"slideshow-widget\";s:3:\"css\";s:9:\"slideshow\";}i:4;a:6:{s:5:\"title\";s:16:\"Về chúng tôi\";s:12:\"title_status\";s:6:\"active\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:12:\"about-widget\";s:3:\"css\";s:5:\"about\";}i:5;a:6:{s:5:\"title\";s:22:\"Danh mục bài viết\";s:12:\"title_status\";s:6:\"active\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:23:\"category-article-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:6;a:6:{s:5:\"title\";s:23:\"Danh mục sản phẩm\";s:12:\"title_status\";s:6:\"active\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:23:\"category-product-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:7;a:6:{s:5:\"title\";s:9:\"Tư vấn\";s:12:\"title_status\";s:8:\"inactive\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:13:\"tu-van-widget\";s:3:\"css\";s:6:\"tu-van\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
-(151, 'widget_module-item', 'a:12:{i:2;a:7:{s:5:\"title\";s:24:\"Sản phẩm nổi bật\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:28:\"95,97,99,101,103,105,107,109\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:23:\"featured-product-widget\";s:3:\"css\";s:16:\"featured-product\";}i:3;a:7:{s:5:\"title\";s:24:\"Sản phẩm giảm giá\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:14:\"85,87,89,91,93\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:19:\"sale-product-widget\";s:3:\"css\";s:12:\"sale-product\";}i:8;a:7:{s:5:\"title\";s:10:\"Rau sạch\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:31:\"327,326,325,143,142,141,140,139\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:15:\"rau-sach-widget\";s:3:\"css\";s:8:\"rau-sach\";}i:11;a:7:{s:5:\"title\";s:11:\"Đối tác\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:23:\"162,160,158,156,154,152\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:14:\"partner-widget\";s:3:\"css\";s:7:\"partner\";}i:12;a:7:{s:5:\"title\";s:12:\"Khách hàng\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:7:\"165,167\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:15:\"customer-widget\";s:3:\"css\";s:8:\"customer\";}i:13;a:7:{s:5:\"title\";s:17:\"Bài viết mới\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:7:\"173,171\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:15:\"hot-news-widget\";s:3:\"css\";s:8:\"hot-news\";}i:14;a:7:{s:5:\"title\";s:23:\"Bài viết nổi bật\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:15:\"292,294,296,298\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:20:\"category-left-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:15;a:7:{s:5:\"title\";s:23:\"Bài viết nổi bật\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:15:\"292,294,296,298\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:23:\"category-article-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:16;a:7:{s:5:\"title\";s:24:\"Sản phẩm nổi bật\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:15:\"139,140,141,142\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:23:\"category-product-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:17;a:7:{s:5:\"title\";s:22:\"Thiết bị vệ sinh\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:31:\"327,326,325,143,142,141,140,139\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:23:\"thiet-bi-ve-sinh-widget\";s:3:\"css\";s:16:\"thiet-bi-ve-sinh\";}i:18;a:7:{s:5:\"title\";s:18:\"Thiết bị bếp\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:31:\"327,326,325,143,142,141,140,139\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:19:\"thiet-bi-bep-widget\";s:3:\"css\";s:12:\"thiet-bi-bep\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
+(151, 'widget_module-item', 'a:13:{i:2;a:7:{s:5:\"title\";s:24:\"Sản phẩm nổi bật\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:28:\"95,97,99,101,103,105,107,109\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:23:\"featured-product-widget\";s:3:\"css\";s:16:\"featured-product\";}i:3;a:7:{s:5:\"title\";s:24:\"Sản phẩm giảm giá\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:14:\"85,87,89,91,93\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:19:\"sale-product-widget\";s:3:\"css\";s:12:\"sale-product\";}i:8;a:7:{s:5:\"title\";s:10:\"Rau sạch\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:31:\"327,326,325,143,142,141,140,139\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:15:\"rau-sach-widget\";s:3:\"css\";s:8:\"rau-sach\";}i:11;a:7:{s:5:\"title\";s:11:\"Đối tác\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:23:\"162,160,158,156,154,152\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:14:\"partner-widget\";s:3:\"css\";s:7:\"partner\";}i:12;a:7:{s:5:\"title\";s:12:\"Khách hàng\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:15:\"513,511,167,165\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:15:\"customer-widget\";s:3:\"css\";s:8:\"customer\";}i:13;a:7:{s:5:\"title\";s:17:\"Bài viết mới\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:7:\"173,171\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:15:\"hot-news-widget\";s:3:\"css\";s:8:\"hot-news\";}i:14;a:7:{s:5:\"title\";s:23:\"Bài viết nổi bật\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:15:\"292,294,296,298\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:20:\"category-left-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:15;a:7:{s:5:\"title\";s:23:\"Bài viết nổi bật\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:15:\"292,294,296,298\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:23:\"category-article-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:16;a:7:{s:5:\"title\";s:24:\"Sản phẩm nổi bật\";s:12:\"title_status\";s:6:\"active\";s:7:\"item_id\";s:15:\"139,140,141,142\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:6:\"active\";s:8:\"position\";s:23:\"category-product-widget\";s:3:\"css\";s:17:\"category-col-left\";}i:17;a:7:{s:5:\"title\";s:22:\"Thiết bị vệ sinh\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:31:\"327,326,325,143,142,141,140,139\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:23:\"thiet-bi-ve-sinh-widget\";s:3:\"css\";s:16:\"thiet-bi-ve-sinh\";}i:18;a:7:{s:5:\"title\";s:18:\"Thiết bị bếp\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:31:\"327,326,325,143,142,141,140,139\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:19:\"thiet-bi-bep-widget\";s:3:\"css\";s:12:\"thiet-bi-bep\";}i:19;a:7:{s:5:\"title\";s:16:\"Nhà thông minh\";s:12:\"title_status\";s:8:\"inactive\";s:7:\"item_id\";s:31:\"327,326,325,143,142,141,140,139\";s:6:\"status\";s:6:\"active\";s:14:\"status_wrapper\";s:8:\"inactive\";s:8:\"position\";s:19:\"clever-house-widget\";s:3:\"css\";s:12:\"clever-house\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (152, 'zendvn_sp_setting', 'a:29:{s:14:\"article_number\";s:1:\"6\";s:14:\"product_number\";s:2:\"12\";s:13:\"product_width\";s:3:\"500\";s:14:\"product_height\";s:3:\"500\";s:13:\"currency_unit\";s:5:\"vi_VN\";s:9:\"smtp_host\";s:14:\"smtp.gmail.com\";s:9:\"smtp_port\";s:3:\"465\";s:10:\"encription\";s:3:\"ssl\";s:9:\"smtp_auth\";s:1:\"1\";s:13:\"smtp_username\";s:23:\"dien.toannang@gmail.com\";s:13:\"smtp_password\";s:12:\"lienhoancuoc\";s:10:\"email_from\";s:18:\"dienit02@gmail.com\";s:8:\"email_to\";s:23:\"tichtacso.com@gmail.com\";s:9:\"from_name\";s:12:\"Hệ thống\";s:7:\"to_name\";s:20:\"Công Ty TNHH VIDOCO\";s:15:\"contacted_phone\";s:12:\"096.302.7720\";s:7:\"address\";s:47:\"35/6 Bùi Quang Là - P.12 - Q. Gò Vấp - HCM\";s:7:\"website\";s:17:\"noithatgialai.net\";s:9:\"telephone\";s:12:\"096.302.7720\";s:11:\"opened_time\";s:8:\"8h - 20h\";s:11:\"opened_date\";s:28:\"(T2-T7). Chủ Nhật nghỉ\";s:14:\"contacted_name\";s:8:\"Mr. Vinh\";s:12:\"facebook_url\";s:43:\"https://www.facebook.com/nguyenvan.laptrinh\";s:11:\"twitter_url\";s:20:\"https://twitter.com/\";s:11:\"google_plus\";s:34:\"https://plus.google.com/u/0/?hl=vi\";s:11:\"youtube_url\";s:43:\"https://www.youtube.com/watch?v=kAcV7S3sySU\";s:13:\"instagram_url\";s:17:\"http://flickr.com\";s:13:\"pinterest_url\";s:18:\"http://daidung.vn/\";s:12:\"slogan_about\";s:137:\"Mipec cung cấp thực phẩm sạch, an toàn, đảm bảo chất lượng hàng đầu. Xóa đi nỗi lo về an toàn thực phẩm\";}', 'yes'),
 (155, 'ckeditor_wordpress', 'a:6:{s:10:\"appearance\";a:10:{s:4:\"skin\";s:5:\"moono\";s:7:\"uicolor\";s:7:\"default\";s:12:\"uicolor_user\";s:0:\"\";s:13:\"default_state\";s:1:\"t\";s:13:\"excerpt_state\";s:1:\"f\";s:12:\"post_toolbar\";s:13:\"WordpressFull\";s:18:\"post_editor_height\";i:300;s:14:\"comment_editor\";s:1:\"t\";s:15:\"comment_toolbar\";s:14:\"WordpressBasic\";s:21:\"comment_editor_height\";i:160;}s:6:\"upload\";a:6:{s:7:\"browser\";s:8:\"disabled\";s:4:\"type\";s:6:\"native\";s:14:\"user_file_path\";s:19:\"wp-content/uploads/\";s:17:\"files_allowed_ext\";s:202:\"7z,aiff,asf,avi,bmp,csv,doc,fla,flv,gif,gz,gzip,jpeg,jpg,mid,mov,mp3,mp4,mpc,mpeg,mpg,ods,odt,pdf,png,ppt,pxd,qt,ram,rar,rm,rmi,rmvb,rtf,sdc,sitd,swf,sxc,sxw,tar,tgz,tif,tiff,txt,vsd,wav,wma,wmv,xls,zip\";s:18:\"images_allowed_ext\";s:20:\"bmp,gif,jpeg,jpg,png\";s:17:\"flash_allowed_ext\";s:7:\"swf,flv\";}s:8:\"ckfinder\";a:11:{s:13:\"file_max_size\";s:2:\"8M\";s:12:\"images_width\";s:4:\"1200\";s:13:\"images_height\";s:4:\"1600\";s:14:\"images_quality\";s:2:\"80\";s:16:\"thumbnails_width\";s:3:\"100\";s:17:\"thumbnails_height\";s:3:\"100\";s:18:\"thumbnails_quality\";s:2:\"80\";s:18:\"thumbnails_enabled\";s:1:\"t\";s:24:\"thumbnails_direct_access\";s:1:\"f\";s:12:\"license_name\";s:0:\"\";s:11:\"license_key\";s:0:\"\";}s:3:\"css\";a:4:{s:4:\"mode\";s:7:\"default\";s:4:\"path\";s:0:\"\";s:6:\"styles\";s:7:\"default\";s:10:\"style_path\";s:0:\"\";}s:8:\"advanced\";a:10:{s:11:\"load_method\";s:11:\"ckeditor.js\";s:12:\"load_timeout\";i:0;s:20:\"native_spell_checker\";s:1:\"t\";s:17:\"scayt_autoStartup\";s:1:\"f\";s:8:\"entities\";s:1:\"t\";s:8:\"p_indent\";s:1:\"t\";s:19:\"p_break_before_open\";s:1:\"t\";s:18:\"p_break_after_open\";s:1:\"t\";s:20:\"p_break_before_close\";s:1:\"t\";s:19:\"p_break_after_close\";s:1:\"t\";}s:7:\"plugins\";a:5:{s:8:\"autogrow\";s:1:\"f\";s:11:\"tableresize\";s:1:\"f\";s:9:\"wpgallery\";s:1:\"t\";s:5:\"scayt\";s:1:\"t\";s:3:\"wsc\";s:1:\"t\";}}', 'yes'),
 (178, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'yes'),
@@ -665,14 +665,14 @@ INSERT INTO `mp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (841, 164, '_wp_attached_file', 'review_2_image.png'),
 (842, 164, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:70;s:6:\"height\";i:66;s:4:\"file\";s:18:\"review_2_image.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (843, 165, '_edit_last', '1'),
-(844, 165, '_edit_lock', '1509139742:1'),
-(847, 165, '_zendvn_sp_post_intro', 'Đời sống phát triển, con người trở nên quan tâm, chăm sóc sức khỏe của mình kĩ càng hơn.Nhờ vậy, xu hướng tiêu thụ thực phẩm sạch ngày càng phổ biến. Khách hàng sẵn sàng bỏ ra số tiền cao hơn để mua được đồ tự nhiên, lành mạnh, xuất xứ rõ ràng'),
+(844, 165, '_edit_lock', '1509480814:1'),
+(847, 165, '_zendvn_sp_post_intro', 'Căn hộ tập thể Giảng Võ'),
 (848, 165, '_zendvn_sp_post_view', '0'),
-(849, 165, '_thumbnail_id', '164'),
+(849, 165, '_thumbnail_id', '504'),
 (858, 167, '_edit_last', '1'),
-(859, 167, '_edit_lock', '1509140113:1'),
-(860, 167, '_thumbnail_id', '164'),
-(863, 167, '_zendvn_sp_post_intro', 'Nhiều người đặt mua trực tuyến sẽ phải chờ tới tận tháng 12 mới có thể chạm tay vào chiếc iPhone mới của Apple.'),
+(859, 167, '_edit_lock', '1509480746:1'),
+(860, 167, '_thumbnail_id', '503'),
+(863, 167, '_zendvn_sp_post_intro', 'Chung cư Timecty'),
 (864, 167, '_zendvn_sp_post_view', '0'),
 (865, 169, '_wp_attached_file', 'meo-chon-thuc-pham.jpg'),
 (866, 169, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:480;s:6:\"height\";i:319;s:4:\"file\";s:22:\"meo-chon-thuc-pham.jpg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
@@ -806,14 +806,6 @@ INSERT INTO `mp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1377, 300, '_wp_page_template', 'page-list-category.php'),
 (1378, 300, '_zendvn_sp_page_intro', ''),
 (1379, 300, '_zendvn_sp_page_view', '0'),
-(1380, 302, '_menu_item_type', 'post_type'),
-(1381, 302, '_menu_item_menu_item_parent', '0'),
-(1382, 302, '_menu_item_object_id', '300'),
-(1383, 302, '_menu_item_object', 'page'),
-(1384, 302, '_menu_item_target', ''),
-(1385, 302, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
-(1386, 302, '_menu_item_xfn', ''),
-(1387, 302, '_menu_item_url', ''),
 (1409, 304, '_menu_item_type', 'taxonomy'),
 (1410, 304, '_menu_item_menu_item_parent', '0'),
 (1411, 304, '_menu_item_object_id', '32'),
@@ -1096,8 +1088,7 @@ INSERT INTO `mp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2212, 436, '_menu_item_menu_item_parent', '435'),
 (2213, 436, '_menu_item_object_id', '19'),
 (2214, 436, '_menu_item_object', 'za_category'),
-(2215, 436, '_menu_item_target', '');
-INSERT INTO `mp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(2215, 436, '_menu_item_target', ''),
 (2216, 436, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (2217, 436, '_menu_item_xfn', ''),
 (2218, 436, '_menu_item_url', ''),
@@ -1112,7 +1103,8 @@ INSERT INTO `mp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2229, 438, '_menu_item_type', 'taxonomy'),
 (2230, 438, '_menu_item_menu_item_parent', '435'),
 (2231, 438, '_menu_item_object_id', '17'),
-(2232, 438, '_menu_item_object', 'za_category'),
+(2232, 438, '_menu_item_object', 'za_category');
+INSERT INTO `mp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (2233, 438, '_menu_item_target', ''),
 (2234, 438, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (2235, 438, '_menu_item_xfn', ''),
@@ -1341,7 +1333,37 @@ INSERT INTO `mp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2541, 89, '_thumbnail_id', '497'),
 (2542, 498, '_wp_attached_file', 'sofa-20.png'),
 (2543, 498, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1000;s:6:\"height\";i:1000;s:4:\"file\";s:11:\"sofa-20.png\";s:5:\"sizes\";a:1:{s:12:\"medium_large\";a:4:{s:4:\"file\";s:19:\"sofa-20-768x768.png\";s:5:\"width\";i:768;s:6:\"height\";i:768;s:9:\"mime-type\";s:9:\"image/png\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
-(2544, 87, '_thumbnail_id', '498');
+(2544, 87, '_thumbnail_id', '498'),
+(2545, 499, '_menu_item_type', 'taxonomy'),
+(2546, 499, '_menu_item_menu_item_parent', '0'),
+(2547, 499, '_menu_item_object_id', '32'),
+(2548, 499, '_menu_item_object', 'category'),
+(2549, 499, '_menu_item_target', ''),
+(2550, 499, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(2551, 499, '_menu_item_xfn', ''),
+(2552, 499, '_menu_item_url', ''),
+(2560, 167, '_wp_old_slug', 'hoang-yen'),
+(2563, 165, '_wp_old_slug', 'hoang-ngan'),
+(2566, 503, '_wp_attached_file', 'khach-hang-1.png'),
+(2567, 503, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:90;s:6:\"height\";i:90;s:4:\"file\";s:16:\"khach-hang-1.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(2568, 504, '_wp_attached_file', 'khach-hang-2.png'),
+(2569, 504, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:86;s:6:\"height\";i:86;s:4:\"file\";s:16:\"khach-hang-2.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(2570, 505, '_wp_attached_file', 'khach-hang-3.png'),
+(2571, 505, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:90;s:6:\"height\";i:90;s:4:\"file\";s:16:\"khach-hang-3.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(2572, 506, '_wp_attached_file', 'khach-hang-4.png'),
+(2573, 506, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:99;s:6:\"height\";i:100;s:4:\"file\";s:16:\"khach-hang-4.png\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(2576, 167, '_wp_old_slug', 'hoang-thai-hau'),
+(2579, 165, '_wp_old_slug', 'ho-huu-thang'),
+(2580, 511, '_edit_last', '1'),
+(2581, 511, '_edit_lock', '1509480857:1'),
+(2582, 511, '_thumbnail_id', '505'),
+(2585, 511, '_zendvn_sp_post_intro', 'Nhà liên cư Cổ Nhuế'),
+(2586, 511, '_zendvn_sp_post_view', '0'),
+(2587, 513, '_edit_last', '1'),
+(2588, 513, '_edit_lock', '1509480918:1'),
+(2589, 513, '_thumbnail_id', '506'),
+(2592, 513, '_zendvn_sp_post_intro', 'Căn hộ cao cấp Rocity'),
+(2593, 513, '_zendvn_sp_post_view', '0');
 
 -- --------------------------------------------------------
 
@@ -1394,15 +1416,15 @@ INSERT INTO `mp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (18, 1, '2017-10-26 03:23:39', '2017-10-26 03:23:39', '', 'Sản phẩm', '', 'inherit', 'closed', 'closed', '', '17-revision-v1', '', '', '2017-10-26 03:23:39', '2017-10-26 03:23:39', '', 17, 'http://demo.dev/noithathiendai/17-revision-v1.html', 0, 'revision', '', 0),
 (19, 1, '2017-10-26 03:24:15', '2017-10-26 03:24:15', '', 'Liên hệ', '', 'publish', 'closed', 'closed', '', 'lien-he', '', '', '2017-10-26 03:24:15', '2017-10-26 03:24:15', '', 0, 'http://demo.dev/noithathiendai/?page_id=19', 0, 'page', '', 0),
 (20, 1, '2017-10-26 03:24:15', '2017-10-26 03:24:15', '', 'Liên hệ', '', 'inherit', 'closed', 'closed', '', '19-revision-v1', '', '', '2017-10-26 03:24:15', '2017-10-26 03:24:15', '', 19, 'http://demo.dev/noithathiendai/19-revision-v1.html', 0, 'revision', '', 0),
-(21, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '21', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=21', 1, 'nav_menu_item', '', 0),
-(22, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '22', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=22', 2, 'nav_menu_item', '', 0),
-(23, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '23', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=23', 4, 'nav_menu_item', '', 0),
-(24, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '24', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=24', 11, 'nav_menu_item', '', 0),
-(57, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '57', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=57', 5, 'nav_menu_item', '', 0),
-(58, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '58', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=58', 6, 'nav_menu_item', '', 0),
-(59, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '59', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=59', 7, 'nav_menu_item', '', 0),
-(60, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '60', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=60', 8, 'nav_menu_item', '', 0),
-(61, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '61', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=61', 9, 'nav_menu_item', '', 0),
+(21, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '21', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=21', 1, 'nav_menu_item', '', 0),
+(22, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '22', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=22', 2, 'nav_menu_item', '', 0),
+(23, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '23', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=23', 4, 'nav_menu_item', '', 0),
+(24, 1, '2017-10-26 03:24:42', '2017-10-26 03:24:42', ' ', '', '', 'publish', 'closed', 'closed', '', '24', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=24', 10, 'nav_menu_item', '', 0),
+(57, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '57', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=57', 5, 'nav_menu_item', '', 0),
+(58, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '58', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=58', 6, 'nav_menu_item', '', 0),
+(59, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '59', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=59', 7, 'nav_menu_item', '', 0),
+(60, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '60', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=60', 8, 'nav_menu_item', '', 0),
+(61, 1, '2017-10-26 04:01:30', '2017-10-26 04:01:30', ' ', '', '', 'publish', 'closed', 'closed', '', '61', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=61', 9, 'nav_menu_item', '', 0),
 (63, 1, '2017-10-26 05:34:41', '0000-00-00 00:00:00', ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-10-26 05:34:41', '0000-00-00 00:00:00', '', 0, 'http://demo.dev/noithathiendai/?p=63', 1, 'nav_menu_item', '', 0),
 (64, 1, '2017-10-26 05:35:12', '2017-10-26 05:35:12', ' ', '', '', 'publish', 'closed', 'closed', '', '64', '', '', '2017-10-27 10:56:27', '2017-10-27 10:56:27', '', 0, 'http://demo.dev/noithathiendai/?p=64', 1, 'nav_menu_item', '', 0),
 (65, 1, '2017-10-26 05:35:12', '2017-10-26 05:35:12', ' ', '', '', 'publish', 'closed', 'closed', '', '65', '', '', '2017-10-27 10:56:27', '2017-10-27 10:56:27', '', 0, 'http://demo.dev/noithathiendai/?p=65', 2, 'nav_menu_item', '', 0),
@@ -1451,9 +1473,9 @@ INSERT INTO `mp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (162, 1, '2017-10-27 20:27:23', '2017-10-27 20:27:23', '', 'Vivaki super', '', 'publish', 'open', 'open', '', 'vivaki-super', '', '', '2017-10-27 20:35:10', '2017-10-27 20:35:10', '', 0, 'http://demo.dev/noithathiendai/?p=162', 0, 'post', '', 0),
 (163, 1, '2017-10-27 20:27:23', '2017-10-27 20:27:23', '', 'Vivaki super', '', 'inherit', 'closed', 'closed', '', '162-revision-v1', '', '', '2017-10-27 20:27:23', '2017-10-27 20:27:23', '', 162, 'http://demo.dev/noithathiendai/162-revision-v1.html', 0, 'revision', '', 0),
 (164, 1, '2017-10-27 21:04:33', '2017-10-27 21:04:33', '', 'review_2_image', '', 'inherit', 'open', 'closed', '', 'review_2_image', '', '', '2017-10-27 21:04:33', '2017-10-27 21:04:33', '', 0, 'http://demo.dev/noithathiendai/wp-content/uploads/review_2_image.png', 0, 'attachment', 'image/png', 0),
-(165, 1, '2017-10-27 21:20:32', '2017-10-27 21:20:32', '', 'Hoàng Ngân', '', 'publish', 'open', 'open', '', 'hoang-ngan', '', '', '2017-10-27 21:21:26', '2017-10-27 21:21:26', '', 0, 'http://demo.dev/noithathiendai/?p=165', 0, 'post', '', 0),
+(165, 1, '2017-10-27 21:20:32', '2017-10-27 21:20:32', 'Khi chuyển đến căn hộ này tôi có nhu cầu thiết kế, chuyển đổi một số nội thất, tôi đã nhờ tới Megashop nhờ vậy tôi có một căn hộ xinh xắn những đầy ắp tiện nghị.', 'Nguyễn Văn Nguyễn', '', 'publish', 'open', 'open', '', 'nguyen-van-nguyen', '', '', '2017-10-31 20:15:50', '2017-10-31 20:15:50', '', 0, 'http://demo.dev/noithathiendai/?p=165', 0, 'post', '', 0),
 (166, 1, '2017-10-27 21:20:32', '2017-10-27 21:20:32', '', 'Hoàng Ngân', '', 'inherit', 'closed', 'closed', '', '165-revision-v1', '', '', '2017-10-27 21:20:32', '2017-10-27 21:20:32', '', 165, 'http://demo.dev/noithathiendai/165-revision-v1.html', 0, 'revision', '', 0),
-(167, 1, '2017-10-27 21:37:18', '2017-10-27 21:37:18', '', 'Hoàng Yến', '', 'publish', 'open', 'open', '', 'hoang-yen', '', '', '2017-10-27 21:37:18', '2017-10-27 21:37:18', '', 0, 'http://demo.dev/noithathiendai/?p=167', 0, 'post', '', 0),
+(167, 1, '2017-10-27 21:37:18', '2017-10-27 21:37:18', 'Khi mua căn hộ mới, tôi đã liên hệ và tìm đơn vị thi công cùng cung cấp nội thất hỗ trợ. Thật may khi tìm được Megashop, các bạn làm việc nhiệt tình, sản phẩm cung cấp tôi rất ưng.', 'Nguyễn Trọng Hiếu', '', 'publish', 'open', 'open', '', 'nguyen-trong-hieu', '', '', '2017-10-31 20:14:39', '2017-10-31 20:14:39', '', 0, 'http://demo.dev/noithathiendai/?p=167', 0, 'post', '', 0),
 (168, 1, '2017-10-27 21:37:18', '2017-10-27 21:37:18', '', 'Hoàng Yến', '', 'inherit', 'closed', 'closed', '', '167-revision-v1', '', '', '2017-10-27 21:37:18', '2017-10-27 21:37:18', '', 167, 'http://demo.dev/noithathiendai/167-revision-v1.html', 0, 'revision', '', 0),
 (169, 1, '2017-10-27 22:16:16', '2017-10-27 22:16:16', '', 'meo-chon-thuc-pham', '', 'inherit', 'open', 'closed', '', 'meo-chon-thuc-pham', '', '', '2017-10-27 22:16:16', '2017-10-27 22:16:16', '', 0, 'http://demo.dev/noithathiendai/wp-content/uploads/meo-chon-thuc-pham.jpg', 0, 'attachment', 'image/jpeg', 0),
 (170, 1, '2017-10-27 22:16:16', '2017-10-27 22:16:16', '', 'tet-doan-ngo', '', 'inherit', 'open', 'closed', '', 'tet-doan-ngo', '', '', '2017-10-27 22:16:16', '2017-10-27 22:16:16', '', 0, 'http://demo.dev/noithathiendai/wp-content/uploads/tet-doan-ngo.jpg', 0, 'attachment', 'image/jpeg', 0),
@@ -1510,7 +1532,6 @@ INSERT INTO `mp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (299, 1, '2017-10-28 19:16:45', '2017-10-28 19:16:45', '', 'Siêu dự bị tỏa sáng, Man Utd thắng sít sao Tottenham', '', 'inherit', 'closed', 'closed', '', '298-revision-v1', '', '', '2017-10-28 19:16:45', '2017-10-28 19:16:45', '', 298, 'http://demo.dev/noithathiendai/298-revision-v1.html', 0, 'revision', '', 0),
 (300, 1, '2017-10-28 19:21:49', '2017-10-28 19:21:49', '', 'Tin tức', '', 'publish', 'closed', 'closed', '', 'tin-tuc', '', '', '2017-10-28 19:21:49', '2017-10-28 19:21:49', '', 0, 'http://demo.dev/noithathiendai/?page_id=300', 0, 'page', '', 0),
 (301, 1, '2017-10-28 19:21:49', '2017-10-28 19:21:49', '', 'Tin tức', '', 'inherit', 'closed', 'closed', '', '300-revision-v1', '', '', '2017-10-28 19:21:49', '2017-10-28 19:21:49', '', 300, 'http://demo.dev/noithathiendai/300-revision-v1.html', 0, 'revision', '', 0),
-(302, 1, '2017-10-28 19:22:20', '2017-10-28 19:22:20', ' ', '', '', 'publish', 'closed', 'closed', '', '302', '', '', '2017-10-29 03:34:39', '2017-10-29 03:34:39', '', 0, 'http://demo.dev/noithathiendai/?p=302', 3, 'nav_menu_item', '', 0),
 (303, 1, '2017-10-29 02:02:39', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-10-29 02:02:39', '0000-00-00 00:00:00', '', 0, 'http://demo.dev/noithathiendai/?p=303', 0, 'post', '', 0),
 (304, 1, '2017-10-29 03:35:33', '2017-10-29 03:35:33', ' ', '', '', 'publish', 'closed', 'closed', '', '304', '', '', '2017-10-29 15:14:40', '2017-10-29 15:14:40', '', 0, 'http://demo.dev/noithathiendai/?p=304', 1, 'nav_menu_item', '', 0),
 (305, 1, '2017-10-29 03:35:33', '2017-10-29 03:35:33', ' ', '', '', 'publish', 'closed', 'closed', '', '305', '', '', '2017-10-29 15:14:40', '2017-10-29 15:14:40', '', 0, 'http://demo.dev/noithathiendai/?p=305', 2, 'nav_menu_item', '', 0),
@@ -1621,7 +1642,23 @@ INSERT INTO `mp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (495, 1, '2017-10-31 17:15:31', '2017-10-31 17:15:31', '', 'sofa-17', '', 'inherit', 'open', 'closed', '', 'sofa-17-2', '', '', '2017-10-31 17:15:31', '2017-10-31 17:15:31', '', 93, 'http://demo.dev/noithathiendai/wp-content/uploads/sofa-17.png', 0, 'attachment', 'image/png', 0),
 (496, 1, '2017-10-31 17:15:45', '2017-10-31 17:15:45', '', 'sofa-18', '', 'inherit', 'open', 'closed', '', 'sofa-18-2', '', '', '2017-10-31 17:15:45', '2017-10-31 17:15:45', '', 91, 'http://demo.dev/noithathiendai/wp-content/uploads/sofa-18.png', 0, 'attachment', 'image/png', 0),
 (497, 1, '2017-10-31 17:16:00', '2017-10-31 17:16:00', '', 'sofa-19', '', 'inherit', 'open', 'closed', '', 'sofa-19-2', '', '', '2017-10-31 17:16:00', '2017-10-31 17:16:00', '', 89, 'http://demo.dev/noithathiendai/wp-content/uploads/sofa-19.png', 0, 'attachment', 'image/png', 0),
-(498, 1, '2017-10-31 17:16:15', '2017-10-31 17:16:15', '', 'sofa-20', '', 'inherit', 'open', 'closed', '', 'sofa-20-2', '', '', '2017-10-31 17:16:15', '2017-10-31 17:16:15', '', 87, 'http://demo.dev/noithathiendai/wp-content/uploads/sofa-20.png', 0, 'attachment', 'image/png', 0);
+(498, 1, '2017-10-31 17:16:15', '2017-10-31 17:16:15', '', 'sofa-20', '', 'inherit', 'open', 'closed', '', 'sofa-20-2', '', '', '2017-10-31 17:16:15', '2017-10-31 17:16:15', '', 87, 'http://demo.dev/noithathiendai/wp-content/uploads/sofa-20.png', 0, 'attachment', 'image/png', 0),
+(499, 1, '2017-10-31 19:19:26', '2017-10-31 19:19:26', ' ', '', '', 'publish', 'closed', 'closed', '', '499', '', '', '2017-10-31 19:19:26', '2017-10-31 19:19:26', '', 0, 'http://demo.dev/noithathiendai/?p=499', 3, 'nav_menu_item', '', 0),
+(500, 1, '2017-10-31 19:38:45', '2017-10-31 19:38:45', 'Chúng tôi công tác nước ngoài, việc mua nội thất và sửa nhà anh giao lại hết cho tôi, cảm ơn sự chu đáo nhiệt tình của các bạn. Tôi rất hài lòng với sản phẩm các bạn cung cấp.', 'Hoàng Ngân', '', 'inherit', 'closed', 'closed', '', '165-revision-v1', '', '', '2017-10-31 19:38:45', '2017-10-31 19:38:45', '', 165, 'http://demo.dev/noithathiendai/165-revision-v1.html', 0, 'revision', '', 0),
+(501, 1, '2017-10-31 19:41:28', '2017-10-31 19:41:28', 'Việc bố trí từ tầng 1 lên tầng 5 nhà tôi mới mua như thế nào cho hợp lý khiến tôi thật sự lung túng. Megashop quá chuyên nghiệp từ khi tôi gặp gỡ và triển khai hoàn thiện, cảm ơn !', 'Hoàng Thái Hậu', '', 'inherit', 'closed', 'closed', '', '167-revision-v1', '', '', '2017-10-31 19:41:28', '2017-10-31 19:41:28', '', 167, 'http://demo.dev/noithathiendai/167-revision-v1.html', 0, 'revision', '', 0),
+(502, 1, '2017-10-31 19:42:10', '2017-10-31 19:42:10', 'Chúng tôi công tác nước ngoài, việc mua nội thất và sửa nhà anh giao lại hết cho tôi, cảm ơn sự chu đáo nhiệt tình của các bạn. Tôi rất hài lòng với sản phẩm các bạn cung cấp.', 'Hồ Hữu Thắng', '', 'inherit', 'closed', 'closed', '', '165-revision-v1', '', '', '2017-10-31 19:42:10', '2017-10-31 19:42:10', '', 165, 'http://demo.dev/noithathiendai/165-revision-v1.html', 0, 'revision', '', 0),
+(503, 1, '2017-10-31 19:44:06', '2017-10-31 19:44:06', '', 'khach-hang-1', '', 'inherit', 'open', 'closed', '', 'khach-hang-1', '', '', '2017-10-31 19:44:06', '2017-10-31 19:44:06', '', 0, 'http://demo.dev/noithathiendai/wp-content/uploads/khach-hang-1.png', 0, 'attachment', 'image/png', 0),
+(504, 1, '2017-10-31 19:44:06', '2017-10-31 19:44:06', '', 'khach-hang-2', '', 'inherit', 'open', 'closed', '', 'khach-hang-2', '', '', '2017-10-31 19:44:06', '2017-10-31 19:44:06', '', 0, 'http://demo.dev/noithathiendai/wp-content/uploads/khach-hang-2.png', 0, 'attachment', 'image/png', 0),
+(505, 1, '2017-10-31 19:44:07', '2017-10-31 19:44:07', '', 'khach-hang-3', '', 'inherit', 'open', 'closed', '', 'khach-hang-3', '', '', '2017-10-31 19:44:07', '2017-10-31 19:44:07', '', 0, 'http://demo.dev/noithathiendai/wp-content/uploads/khach-hang-3.png', 0, 'attachment', 'image/png', 0),
+(506, 1, '2017-10-31 19:44:07', '2017-10-31 19:44:07', '', 'khach-hang-4', '', 'inherit', 'open', 'closed', '', 'khach-hang-4', '', '', '2017-10-31 19:44:07', '2017-10-31 19:44:07', '', 0, 'http://demo.dev/noithathiendai/wp-content/uploads/khach-hang-4.png', 0, 'attachment', 'image/png', 0),
+(507, 1, '2017-10-31 20:14:28', '2017-10-31 20:14:28', 'Khi mua căn hộ mới, tôi đã liên hệ và tìm đơn vị thi công cùng cung cấp nội thất hỗ trợ. Thật may khi tìm được Megashop, các bạn làm việc nhiệt tình, sản phẩm cung cấp tôi rất ưng.', 'Nguyễn Trọng Hiếu', '', 'inherit', 'closed', 'closed', '', '167-autosave-v1', '', '', '2017-10-31 20:14:28', '2017-10-31 20:14:28', '', 167, 'http://demo.dev/noithathiendai/167-autosave-v1.html', 0, 'revision', '', 0),
+(508, 1, '2017-10-31 20:14:39', '2017-10-31 20:14:39', 'Khi mua căn hộ mới, tôi đã liên hệ và tìm đơn vị thi công cùng cung cấp nội thất hỗ trợ. Thật may khi tìm được Megashop, các bạn làm việc nhiệt tình, sản phẩm cung cấp tôi rất ưng.', 'Nguyễn Trọng Hiếu', '', 'inherit', 'closed', 'closed', '', '167-revision-v1', '', '', '2017-10-31 20:14:39', '2017-10-31 20:14:39', '', 167, 'http://demo.dev/noithathiendai/167-revision-v1.html', 0, 'revision', '', 0),
+(509, 1, '2017-10-31 20:15:50', '2017-10-31 20:15:50', 'Khi chuyển đến căn hộ này tôi có nhu cầu thiết kế, chuyển đổi một số nội thất, tôi đã nhờ tới Megashop nhờ vậy tôi có một căn hộ xinh xắn những đầy ắp tiện nghị.', 'Nguyễn Văn Nguyễn', '', 'inherit', 'closed', 'closed', '', '165-revision-v1', '', '', '2017-10-31 20:15:50', '2017-10-31 20:15:50', '', 165, 'http://demo.dev/noithathiendai/165-revision-v1.html', 0, 'revision', '', 0),
+(510, 1, '2017-10-31 20:15:52', '2017-10-31 20:15:52', 'Khi chuyển đến căn hộ này tôi có nhu cầu thiết kế, chuyển đổi một số nội thất, tôi đã nhờ tới Megashop nhờ vậy tôi có một căn hộ xinh xắn những đầy ắp tiện nghị.', 'Nguyễn Văn Nguyễn', '', 'inherit', 'closed', 'closed', '', '165-autosave-v1', '', '', '2017-10-31 20:15:52', '2017-10-31 20:15:52', '', 165, 'http://demo.dev/noithathiendai/165-autosave-v1.html', 0, 'revision', '', 0),
+(511, 1, '2017-10-31 20:16:39', '2017-10-31 20:16:39', 'Việc bố trí từ tầng 1 lên tầng 5 nhà tôi mới mua như thế nào cho hợp lý khiến tôi thật sự lung túng. Megashop quá chuyên nghiệp từ khi tôi gặp gỡ và triển khai hoàn thiện, cảm ơn !', 'Hoàng Thái Hậu', '', 'publish', 'open', 'open', '', 'hoang-thai-hau', '', '', '2017-10-31 20:16:39', '2017-10-31 20:16:39', '', 0, 'http://demo.dev/noithathiendai/?p=511', 0, 'post', '', 0),
+(512, 1, '2017-10-31 20:16:39', '2017-10-31 20:16:39', 'Việc bố trí từ tầng 1 lên tầng 5 nhà tôi mới mua như thế nào cho hợp lý khiến tôi thật sự lung túng. Megashop quá chuyên nghiệp từ khi tôi gặp gỡ và triển khai hoàn thiện, cảm ơn !', 'Hoàng Thái Hậu', '', 'inherit', 'closed', 'closed', '', '511-revision-v1', '', '', '2017-10-31 20:16:39', '2017-10-31 20:16:39', '', 511, 'http://demo.dev/noithathiendai/511-revision-v1.html', 0, 'revision', '', 0),
+(513, 1, '2017-10-31 20:17:39', '2017-10-31 20:17:39', 'Chúng tôi công tác nước ngoài, việc mua nội thất và sửa nhà anh giao lại hết cho tôi, cảm ơn sự chu đáo nhiệt tình của các bạn. Tôi rất hài lòng với sản phẩm các bạn cung cấp.', 'Hoàng Mạnh Hùng', '', 'publish', 'open', 'open', '', 'hoang-manh-hung', '', '', '2017-10-31 20:17:39', '2017-10-31 20:17:39', '', 0, 'http://demo.dev/noithathiendai/?p=513', 0, 'post', '', 0),
+(514, 1, '2017-10-31 20:17:39', '2017-10-31 20:17:39', 'Chúng tôi công tác nước ngoài, việc mua nội thất và sửa nhà anh giao lại hết cho tôi, cảm ơn sự chu đáo nhiệt tình của các bạn. Tôi rất hài lòng với sản phẩm các bạn cung cấp.', 'Hoàng Mạnh Hùng', '', 'inherit', 'closed', 'closed', '', '513-revision-v1', '', '', '2017-10-31 20:17:39', '2017-10-31 20:17:39', '', 513, 'http://demo.dev/noithathiendai/513-revision-v1.html', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1873,7 +1910,7 @@ INSERT INTO `mp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (160, 28, 0),
 (162, 1, 0),
 (165, 29, 0),
-(167, 28, 0),
+(167, 29, 0),
 (171, 32, 0),
 (173, 32, 0),
 (190, 30, 0),
@@ -1887,7 +1924,6 @@ INSERT INTO `mp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (294, 32, 0),
 (296, 32, 0),
 (298, 32, 0),
-(302, 2, 0),
 (304, 35, 0),
 (305, 35, 0),
 (306, 35, 0),
@@ -1932,7 +1968,10 @@ INSERT INTO `mp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (453, 24, 0),
 (454, 24, 0),
 (455, 24, 0),
-(456, 24, 0);
+(456, 24, 0),
+(499, 2, 0),
+(511, 29, 0),
+(513, 29, 0);
 
 -- --------------------------------------------------------
 
@@ -1977,8 +2016,8 @@ INSERT INTO `mp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 (22, 22, 'za_category', '', 6, 0),
 (23, 23, 'za_category', '', 6, 0),
 (24, 24, 'nav_menu', '', 0, 28),
-(28, 28, 'category', '', 0, 6),
-(29, 29, 'category', '', 0, 1),
+(28, 28, 'category', '', 0, 5),
+(29, 29, 'category', '', 0, 4),
 (30, 30, 'nav_menu', '', 0, 5),
 (31, 31, 'category', '', 0, 0),
 (32, 32, 'category', '', 0, 8),
@@ -2033,12 +2072,12 @@ INSERT INTO `mp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (14, 1, 'show_welcome_panel', '1'),
 (16, 1, 'mp_dashboard_quick_press_last_post_id', '3'),
 (17, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}'),
-(18, 1, 'mp_user-settings', 'libraryContent=browse&editor=tinymce&imgsize=full'),
-(19, 1, 'mp_user-settings-time', '1509171524'),
+(18, 1, 'mp_user-settings', 'libraryContent=browse&editor=html&imgsize=full'),
+(19, 1, 'mp_user-settings-time', '1509478721'),
 (20, 1, 'session_tokens', 'a:4:{s:64:\"e37a055031d68e4b8b21e6dece90d71db7c4f700ae3dfcac38ff4f8ff9054b36\";a:4:{s:10:\"expiration\";i:1510137234;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\";s:5:\"login\";i:1508927634;}s:64:\"f27147f333c65d97c71506b9e8e96f5c2c122d95ebbd3818025f17ef32f84153\";a:4:{s:10:\"expiration\";i:1510576223;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\";s:5:\"login\";i:1509366623;}s:64:\"f295fc0dfc4048fa156968633362f9bf3f9160bc3ff7a6e23f807ca6955dc7b2\";a:4:{s:10:\"expiration\";i:1510586312;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\";s:5:\"login\";i:1509376712;}s:64:\"54d81abf38c23ecee0e06380c7e05ffec5436dd86b08d321d53a1d781cbe01a1\";a:4:{s:10:\"expiration\";i:1510588586;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36\";s:5:\"login\";i:1509378986;}}'),
 (21, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 (22, 1, 'metaboxhidden_nav-menus', 'a:2:{i:0;s:12:\"add-post_tag\";i:1;s:15:\"add-post_format\";}'),
-(23, 1, 'nav_menu_recently_edited', '24'),
+(23, 1, 'nav_menu_recently_edited', '2'),
 (24, 1, 'closedpostboxes_nav-menus', 'a:0:{}'),
 (25, 1, 'mp_media_library_mode', 'list');
 
@@ -2237,17 +2276,17 @@ ALTER TABLE `mp_links`
 -- AUTO_INCREMENT cho bảng `mp_options`
 --
 ALTER TABLE `mp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=624;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=633;
 --
 -- AUTO_INCREMENT cho bảng `mp_postmeta`
 --
 ALTER TABLE `mp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2545;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2594;
 --
 -- AUTO_INCREMENT cho bảng `mp_posts`
 --
 ALTER TABLE `mp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=499;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=515;
 --
 -- AUTO_INCREMENT cho bảng `mp_shk_banner`
 --

@@ -2,8 +2,6 @@
 /*
  Template Name: page_list_category
 */
- global $zController;
-
  ?>
  <?php get_header();?>
  <div class="container margin-top-15 margin-bottom-15">

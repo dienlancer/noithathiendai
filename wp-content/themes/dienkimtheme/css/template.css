@@ -875,6 +875,21 @@ div.box-product-add-to-cart{
 div.cleverhouse{
     background: #ffffff
 }
+div.twitter{
+    background: url(../images/twitter-bg.jpg);
+    padding: 125px 0px
+}
+div.user-info-blog-comment{
+    color: #ffffff;
+    font-family: 'baomoi';
+}
+div.user-comment-info{
+    width:210px;
+    margin:auto;
+}
+div.comment{
+    text-align: center;
+}
 @media (max-width: 1199px){
     div.phone-number > div{
         display: none;

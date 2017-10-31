@@ -2,11 +2,9 @@
 	/*
 	 Template Name: HomePage
 	 */	 
-	 global $zController;    
-
-    ?>
-    <?php get_header();     ?>
-    <div class="container">
+     ?>
+     <?php get_header();     ?>
+     <div class="container">
         <div class="margin-top-5">            
             <?php if(is_active_sidebar('slideshow-widget')):?>
                 <?php dynamic_sidebar('slideshow-widget')?>
@@ -94,18 +92,20 @@
     </div> 
     <div class="cleverhouse padding-bottom-15">
         <div class="container">
-        <div class="header-title">
-            <h4><span><font color="#3AB54A">Nhà</font></span> thông minh</h4>                          
-        </div>  
-        <div class="margin-top-15">
-            <?php if(is_active_sidebar('clever-house-widget')):?>
-                <?php dynamic_sidebar('clever-house-widget')?>
-            <?php endif; ?>  
-        </div>
-    </div>   
-    </div> 
-    
-<?php get_footer(); ?>
-<?php wp_footer();?>
+            <div class="header-title">
+                <h4><span><font color="#3AB54A">Nhà</font></span> thông minh</h4>                          
+            </div>  
+            <div class="margin-top-15">
+                <?php if(is_active_sidebar('clever-house-widget')):?>
+                    <?php dynamic_sidebar('clever-house-widget')?>
+                <?php endif; ?>  
+            </div>
+        </div>   
+    </div>     
+    <?php if(is_active_sidebar('customer-widget')):?>
+                    <?php dynamic_sidebar('customer-widget')?>
+    <?php endif; ?>   
+    <?php get_footer(); ?>
+    <?php wp_footer();?>
 </body>
 </html>

@@ -1,7 +1,4 @@
-<?php 
-     global $zController;
 
-?>
  <?php get_header();?>
  <div class="container margin-top-15 margin-bottom-15">
  	<div class="col-lg-3 no-padding page-left">
