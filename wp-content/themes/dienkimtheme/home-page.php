@@ -73,21 +73,23 @@
         </div>
     </div>    
     <div class="register-mail-bg margin-top-15">
-        <div class="container padding-top-15 padding-bottom-15">
-            <div class="col-lg-6 no-padding">
-                <?php if(is_active_sidebar('customer-widget')):?>
-                    <?php dynamic_sidebar('customer-widget')?>
-                <?php endif; ?>                  
-            </div>
-            <div class="col-lg-6 no-padding-right">
-                <div class="subscribe-label">Đăng ký nhận email</div>
-                <div class="box-register-email margin-top-5">                                                            
-                    <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-                        <input type="email" value="" placeholder="Email của bạn" name="EMAIL" id="mail" aria-label="general.newsletter_form.newsletter_email">
-                        <button name="subscribe" id="subscribe">Gửi ngay</button>
-                    </form>
+        <div class="container">            
+            <div class="col-lg-12 no-padding">
+                <h3 class="subscribe-label">
+                    <span>Đăng ký nhận</span>&nbsp;<span class="tu-van-mien-phi">tư vấn miễn phí</span>
+                </h3>
+                <div class="mail-subscribe">Bạn là khách hàng , lớn hay nhỏ, và muốn chúng tôi phục vụ , xin vui lòng gửi cho chúng tôi một</div>
+                <div class="mail-subscribe">email để support@megashop.com</div>
+                <div class="box-register-email margin-top-5">              
+                    <div class="subscribe-email">
+                        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                            <input type="email" value="" placeholder="Email của bạn" name="EMAIL" id="mail" aria-label="general.newsletter_form.newsletter_email">
+                            <button name="subscribe" id="subscribe">Gửi ngay</button>
+                        </form>
+                    </div>                                                                  
                 </div>
             </div>
+            <div class="clr"></div>
         </div>
     </div>     
 <?php get_footer(); ?>
