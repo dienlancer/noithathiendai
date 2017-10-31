@@ -872,6 +872,9 @@ div.box-product-add-to-cart{
     text-align: center;
     display: none;
 }
+div.cleverhouse{
+    background: #ffffff
+}
 @media (max-width: 1199px){
     div.phone-number > div{
         display: none;

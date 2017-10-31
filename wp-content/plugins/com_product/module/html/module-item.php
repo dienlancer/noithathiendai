@@ -703,7 +703,8 @@ if(!empty($instance['item_id'])){
 			}			
 			break;	
 			case "thiet-bi-ve-sinh-widget":		
-			case "thiet-bi-bep-widget":		
+			case "thiet-bi-bep-widget":	
+			case "clever-house-widget":		
 			?>
 			<script type="text/javascript" language="javascript">
 				jQuery(document).ready(function(){

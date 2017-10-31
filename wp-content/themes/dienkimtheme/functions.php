@@ -255,6 +255,15 @@ function zendvn_theme_widgets_init(){
 		'before_title'  => '<h3 class="page-title-left h-title">',
 		'after_title'   => '</h3>',
 		'after_widget'  => '</div>'				
+	));	
+	register_sidebar(array(
+		'name'          => __( 'CleverHouseWidget', $themeName ),
+		'id'            => 'clever-house-widget',		
+		'class'         => '',
+		'before_widget' => '<div id="%1$s" class="%2$s">',
+		'before_title'  => '<h3 class="page-title-left h-title">',
+		'after_title'   => '</h3>',
+		'after_widget'  => '</div>'				
 	));		
 }
 add_action("wp_enqueue_scripts",function(){

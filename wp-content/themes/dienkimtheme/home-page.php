@@ -91,7 +91,20 @@
             </div>
             <div class="clr"></div>
         </div>
-    </div>     
+    </div> 
+    <div class="cleverhouse padding-bottom-15">
+        <div class="container">
+        <div class="header-title">
+            <h4><span><font color="#3AB54A">Nhà</font></span> thông minh</h4>                          
+        </div>  
+        <div class="margin-top-15">
+            <?php if(is_active_sidebar('clever-house-widget')):?>
+                <?php dynamic_sidebar('clever-house-widget')?>
+            <?php endif; ?>  
+        </div>
+    </div>   
+    </div> 
+    
 <?php get_footer(); ?>
 <?php wp_footer();?>
 </body>
