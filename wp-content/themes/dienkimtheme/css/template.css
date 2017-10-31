@@ -736,7 +736,73 @@ div#cart-info > div {
     background: #fff;
     box-shadow: 1px 1px 1px #ddd;
 }
-
+.re-ship-phone .item {
+    padding: 15px 0 15px 65px;
+    background: #f4f4f4;
+    overflow: hidden;
+    border-radius: 46px 0 0 46px;
+    color: #444;
+    font-size: 18px;
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.re-ship-phone .item .icon.icon1 {
+    background-image: url('../images/return.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.re-ship-phone .item .icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: #666;
+}
+.re-ship-phone .item .des {
+    margin: 0;
+    line-height: 21px;
+}
+.re-ship-phone .item .des span {
+    color: #f48549;
+}
+.hotline-bg{
+    background: #ffffff;
+    padding:30px 0px 20px 0px;
+}
+div.re-ship-phone{
+    font-family: 'baomoi';
+}
+.re-ship-phone .item .icon.icon2 {
+    background-image: url('../images/ship.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.re-ship-phone .item .icon.icon3 {
+    background-image: url('../images/money.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.re-ship-phone .item .icon.icon4 {
+    background-image: url('../images/phone1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.header-title{
+        font-family: 'baomoi';
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0px 0px 1px 0px;
+}
+div.header-title > h4{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 @media (max-width: 1199px){
     div.phone-number > div{
         display: none;

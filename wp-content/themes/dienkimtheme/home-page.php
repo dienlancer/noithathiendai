@@ -6,91 +6,20 @@
 
     ?>
     <?php get_header();     ?>
-    <div class="container main">
-        <div class="margin-top-5">
-            <div class="col-lg-8 no-padding">
+    <div class="container">
+        <div class="margin-top-5">            
                 <?php if(is_active_sidebar('slideshow-widget')):?>
                     <?php dynamic_sidebar('slideshow-widget')?>
-                <?php endif; ?>  
-            </div>
-            <div class="col-lg-4 no-padding-right"><center><img src="<?php echo site_url( '/wp-content/uploads/home_banner.png', null ); ?>" /></center></div>            
+                <?php endif; ?>              
         </div>
-        <div class="clr"></div>
-        <div class="margin-top-15 product-featured-sale">
-            <script type="text/javascript" language="javascript">
-                jQuery(document).ready(function(){
-                    jQuery(".owl-carousel-product-sale-featured").owlCarousel({
-                        autoplay:true,                    
-                        loop:true,
-                        margin:0,                        
-                        nav:true,                                            
-                        responsiveClass:true,
-                        responsive:{
-                            0:{
-                                items:1,
-                                nav:true
-                            },
-                            600:{
-                                items:5,
-                                nav:false
-                            },
-                            1000:{
-                                items:5,
-                                nav:true,
-                                loop:false
-                            }
-                        }
-                    })
-                });
-                jQuery(document).ready(function(){
-                    jQuery("#sale-product").show();
-                    jQuery("div.tab > button.tablinks:first-child").addClass('active');
-                });
-                function openCity(evt, cityName) {    
-                    var i, tabcontent, tablinks;
-                    tabcontent = document.getElementsByClassName("tabcontent");
-                    for (i = 0; i < tabcontent.length; i++) {
-                        tabcontent[i].style.display = "none";
-                    }   
-                    tablinks = document.getElementsByClassName("tablinks");
-                    for (i = 0; i < tablinks.length; i++) {
-                        tablinks[i].className = tablinks[i].className.replace(" active", "");
-                    }   
-                    document.getElementById(cityName).style.display = "block";
-                    evt.currentTarget.className += " active";
-                }
-            </script>    
-            <div class="tab">
-                <button class="tablinks h-title" onclick="openCity(event, 'sale-product')">Giảm giá</button>
-                <button class="tablinks h-title" onclick="openCity(event, 'featured-product')">Nổi bật</button> 
-                <a href="index.php" class="xem-tat-ca">Xem tất cả</a> 
-                <div class="sale-time-remain">
-                    <span class="remain time-label">Còn lại</span>
-                    <span class="remain-icon"><i class="fa fa-history" aria-hidden="true"></i></span>
-                    <span class="time-number">23</span>
-                    <span class="time-label">Ngày</span>
-                    <span class="time-number">:11</span>
-                    <span class="time-label">Giờ</span>
-                    <span class="time-number">:51</span>
-                    <span class="time-label">Phút</span>
-                    <span class="time-number">:11</span>
-                    <span class="time-label">Giây</span>
-                                      
-                </div>
-                <div class="clr"></div>           
-            </div>
-            <div id="sale-product" class="tabcontent">
-                <?php if(is_active_sidebar('sale-product-widget')):?>
-                    <?php dynamic_sidebar('sale-product-widget')?>
-                <?php endif; ?>   
-            </div>
-            <div id="featured-product" class="tabcontent">
-                <?php if(is_active_sidebar('featured-product-widget')):?>
-                    <?php dynamic_sidebar('featured-product-widget')?>
-                <?php endif; ?>   
-            </div>          
+    </div>
+    <?php if(is_active_sidebar('tu-van-widget')):?>
+                    <?php dynamic_sidebar('tu-van-widget')?>
+    <?php endif; ?>    
+    <div class="container main">
+        <div class="header-title">
+            <h4><span><font color="#3AB54A">Danh mục</font></span> sản phẩm</h4>               
         </div>
-        <div class="clr"></div>
         <script type="text/javascript" language="javascript">
             jQuery(document).ready(function(){
                 jQuery(".owl-carousel-rau-sach-thit-hai-san-thuc-pham-kho").owlCarousel({

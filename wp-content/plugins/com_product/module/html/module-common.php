@@ -17,26 +17,58 @@ $youtube_url=$zendvn_sp_settings['youtube_url'];
 $slogan_about=$zendvn_sp_settings['slogan_about'];
 if($instance["status"]=='active'){
 	switch ($instance["position"]) {
-		case 'search-widget':	
-		$page_id_search = $zController->getHelper('GetPageId')->get('_wp_page_template','search.php');  
-		$search_link = get_permalink($page_id_search);	
+		case 'tu-van-widget':			
 		?>
-		<div class="margin-top-15">
-			<nav class="header-action">
-				<a href="#" class="header-action-item"><i class="fa fa-question-circle" aria-hidden="true"></i>Hỗ trợ</a>                
-				<a href="/account/register" class="header-action-item"><i class="fa fa-unlock" aria-hidden="true"></i>Đăng ký</a>
-				<a href="/account/login" class="header-action-item"><i class="fa fa-user" aria-hidden="true"></i>Đăng nhập</a>
+		<div class="hotline-bg">
+			<div class="container">
+				<div class="re-ship-phone">
+					<div class="col-lg-3 no-padding">
+						<div class="item">
+							<span class="icon icon1">
+							</span>
+							<p class="des">
+								<span>Tư vấn 24/7</span> Miễn phí
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="item">
+							<span class="icon icon2">
 
-			</nav>            
-			<div class="box-search margin-top-5">
-				<form action="<?php echo $search_link; ?>" method="get">
-					<input type="text" name="q" autocomplete="off" placeholder="Tìm kiếm sản phẩm" value="">
-					<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-				</form>
-				<div class="clr"></div>
+							</span>
+							<p class="des">
+								Vận chuyển <span>miễn phí</span>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="item">
+							<span class="icon icon3">
+
+							</span>
+							<p class="des">
+								Nhận hàng <span>Nhận tiền</span>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 no-padding">
+						<div class="item">
+							<span class="icon icon4">
+
+							</span>
+							<p class="des">
+								Gọi ngay <span><?php echo $contacted_phone; ?></span>
+							</p>
+						</div>
+					</div>
+					<div class="clr"></div>
+				</div>        
 			</div>
-			<div class="clr"></div>
-		</div>                
+			<div class="container">
+				<div class="col-lg-8 no-padding"><img src="<?php echo site_url( '/wp-content/uploads/t5.jpg',null ); ?>" /></div>
+				<div class="col-lg-4 no-padding-right"><img src="<?php echo site_url( '/wp-content/uploads/t6.jpg',null ); ?>" /></div>
+			</div>
+		</div>    
 		<?php		
 		break;
 		case 'slideshow-widget':

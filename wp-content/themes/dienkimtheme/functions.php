@@ -272,6 +272,15 @@ function zendvn_theme_widgets_init(){
 		'after_title'   => '</h1>',
 		'after_widget'  => '</div>'				
 	));		
+	register_sidebar(array(
+		'name'          => __( 'TuVanWidget', $themeName ),
+		'id'            => 'tu-van-widget',		
+		'class'         => '',
+		'before_widget' => '<div id="%1$s" class="%2$s">',
+		'before_title'  => '<h3 class="page-title-left h-title">',
+		'after_title'   => '</h1>',
+		'after_widget'  => '</div>'				
+	));		
 }
 add_action("wp_enqueue_scripts",function(){
 	wp_deregister_script("jquery");

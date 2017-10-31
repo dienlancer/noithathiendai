@@ -61,7 +61,7 @@ display: none; /*collapse all sub menus to begin with*/
 visibility: hidden;
 background: #ffffff;
 width: 200px !important;
-top: 50px !important;
+top: 40px !important;
 }
 
 /*Sub level menu list items (alters style from Top level List Items)*/
