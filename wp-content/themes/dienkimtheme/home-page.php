@@ -8,13 +8,13 @@
     <?php get_header();     ?>
     <div class="container">
         <div class="margin-top-5">            
-                <?php if(is_active_sidebar('slideshow-widget')):?>
-                    <?php dynamic_sidebar('slideshow-widget')?>
-                <?php endif; ?>              
+            <?php if(is_active_sidebar('slideshow-widget')):?>
+                <?php dynamic_sidebar('slideshow-widget')?>
+            <?php endif; ?>              
         </div>
     </div>
     <?php if(is_active_sidebar('tu-van-widget')):?>
-                    <?php dynamic_sidebar('tu-van-widget')?>
+        <?php dynamic_sidebar('tu-van-widget')?>
     <?php endif; ?>    
     <div class="container main">
         <div class="header-title">
@@ -90,97 +90,7 @@
                 <div class="clr"></div>
             </div>
         </div>
-        <div class="clr"></div>
-        <div class="margin-top-15">            
-            <div class="product-kemma">
-                <div>
-                    <div class="category-list-index">
-                        <h2 class="thit-hai-san-index h-title">Thịt hải sản</h2>
-                        <div>
-                            <?php     
-                            $args = array( 
-                                'menu'              => '', 
-                                'container'         => '', 
-                                'container_class'   => '', 
-                                'container_id'      => '', 
-                                'menu_class'        => 'thithaisanmenu', 
-                                'menu_id'           => 'thit-hai-san-menu', 
-                                'echo'              => true, 
-                                'fallback_cb'       => 'wp_page_menu', 
-                                'before'            => '', 
-                                'link_before'       => '<i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;', 
-                                'after'             => '', 
-                                'link_after'        => '', 
-                                'items_wrap'        => '<ul id="%1$s" class="%2$s">%3$s</ul>',  
-                                'depth'             => 3, 
-                                'walker'            => '', 
-                                'theme_location'    => 'thit-hai-san-menu' 
-                            );
-                            wp_nav_menu($args);
-                            ?>                                        
-                        </div>
-                    </div>  
-                    <?php if(is_active_sidebar('top-ban-chay-2-widget')):?>
-                        <?php dynamic_sidebar('top-ban-chay-2-widget')?>
-                    <?php endif; ?>               
-                </div>
-                <div>
-                    <div><center><img src="<?php echo site_url( '/wp-content/uploads/thit-bo-uc.png', null ); ?>" /></center></div>
-                    <div>
-                        <?php if(is_active_sidebar('thit-hai-san-widget')):?>
-                        <?php dynamic_sidebar('thit-hai-san-widget')?>
-                        <?php endif; ?>    
-                    </div>
-                </div>
-                <div class="clr"></div>
-            </div>
-        </div>
-        <div class="clr"></div>
-        <div class="margin-top-15">            
-            <div class="product-kemma">
-                <div>
-                    <div class="category-list-index">
-                        <h2 class="thuc-pham-kho-index h-title">Thực phẩm khô</h2>
-                        <div>
-                            <?php     
-                            $args = array( 
-                                'menu'              => '', 
-                                'container'         => '', 
-                                'container_class'   => '', 
-                                'container_id'      => '', 
-                                'menu_class'        => 'thucphamkhomenu', 
-                                'menu_id'           => 'thuc-pham-kho-menu', 
-                                'echo'              => true, 
-                                'fallback_cb'       => 'wp_page_menu', 
-                                'before'            => '', 
-                                'link_before'       => '<i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;', 
-                                'after'             => '', 
-                                'link_after'        => '', 
-                                'items_wrap'        => '<ul id="%1$s" class="%2$s">%3$s</ul>',  
-                                'depth'             => 3, 
-                                'walker'            => '', 
-                                'theme_location'    => 'thuc-pham-kho-menu' 
-                            );
-                            wp_nav_menu($args);
-                            ?>                                        
-                        </div>
-                    </div>  
-                    <?php if(is_active_sidebar('top-ban-chay-3-widget')):?>
-                        <?php dynamic_sidebar('top-ban-chay-3-widget')?>
-                    <?php endif; ?>               
-                </div>
-                <div>
-                    <div><center><img src="<?php echo site_url( '/wp-content/uploads/qua-say.png', null ); ?>" /></center></div>
-                    <div>
-                        <?php if(is_active_sidebar('thuc-pham-kho-widget')):?>
-                        <?php dynamic_sidebar('thuc-pham-kho-widget')?>
-                        <?php endif; ?>    
-                    </div>
-                </div>
-                <div class="clr"></div>
-            </div>
-        </div>
-        <div class="clr"></div>
+        
         <?php if(is_active_sidebar('partner-widget')):?>
             <?php dynamic_sidebar('partner-widget')?>
         <?php endif; ?>  
