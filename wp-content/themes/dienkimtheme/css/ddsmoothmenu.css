@@ -3,6 +3,7 @@ font: bold 12px Verdana;
 background: transparent; /*background of menu bar (default state)*/
 width: 100%;
 display: none;
+margin: 15px 0px 0px 0px
 }
 
 .ddsmoothmenu ul{
@@ -23,13 +24,13 @@ margin-left: 0;
 /*Top level menu link items style*/
 .ddsmoothmenu ul li a{
     display: block;
-    background: transparent;  
-    padding: 14px 20px;
-    border-right: 0px solid #778;
+    background: transparent;
+    padding: 0px 20px;
+    border-right: 1px dashed #7c7c7c;
     color: #333333;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'robotocondensed';
+    font-family: 'baomoi';
     font-size: 15px;
 }
 .ddsmoothmenu ul > li{
@@ -49,7 +50,7 @@ color:#F86B47;
 
 .ddsmoothmenu ul li a:hover{
 background: transparent; /*background of menu items during onmouseover (hover state)*/
-color: #ff3d01;
+color: #3AB54A;
 }
 	
 /* sub menus */
@@ -89,10 +90,10 @@ top: 0;
     font-weight: normal;
 }
 .ddsmoothmenu > ul > li.current-menu-item > a{
-  color: #ff3d01;
+  color:#3AB54A;
 }
 .ddsmoothmenu > ul > li > ul > li.current-menu-item > a{
-  color: #ff3d01;
+  color: #3AB54A;
 }
 /* Holly Hack for IE \*/
 * html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
@@ -212,7 +213,7 @@ padding: 6px;
 }
 
 div.ddsmoothmobile ul li a:hover{
-background: black;
+background: #3AB54A;
 }
 
 /* ############# Animated Drawer icon (mobile menu toggler) CSS ############# */

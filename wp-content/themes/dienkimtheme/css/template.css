@@ -14,6 +14,7 @@
 @font-face{font-family:"robotocondensed";src:url("../fonts/RobotoCondensed-Regular.woff");}
 @font-face{font-family:"arial";src:url("../fonts/arial.ttf");}
 @font-face{font-family:"notoserif";src:url("../fonts/noto-serif.ttf");}
+@font-face{font-family:"baomoi";src:url("../fonts/baomoi_gdi.ttf");}
 body{font-size:13px;color:#333;background: #f1f1f1}
 table{max-width:100%;}
 p{margin:1em 0;}
@@ -180,13 +181,13 @@ div.topbar{
     padding: 38px 0px
 }
 div.bg-header{
-    background: url('../images/background-header.png') repeat;    
-    border-bottom: 2px solid #A0CB00;
+    background:#F6F6F6;    
+    padding: 10px 0px
 }
 .box-search input {
     height: 40px;
     position: absolute;
-    border: 2px solid #8fbc1c;
+    border:1px solid #dddddd;
     width: 100%;
     padding-left: 21px;
 }
@@ -194,7 +195,7 @@ div.bg-header{
     position: absolute;
     width: 45px;
     height: 40px;
-    background-color: #a0cb00;
+    background-color: #3AB54A;
     box-shadow: none;
     border: none;
     right: 0;
@@ -219,8 +220,8 @@ div.hotline{
 }
 div.cart {
         position: relative;
-    margin-top: 38px;
-    width: 56px;
+    
+    width:100px;
 }
 div.address-mamay {
         margin-top: 38px;
@@ -682,6 +683,60 @@ div#modal-alert-add-cart {
 div#modal-alert-add-cart > div.modal-dialog{
     width: 400px;
 }
+div.top-header{
+    background: #333;
+    padding: 10px 0px;
+    font-family: "baomoi";
+}
+ul.top-user{
+    list-style: none;
+}
+ul.top-user > li{
+    float: left;
+}
+ul.top-user > li > a{
+    color: #bbb;
+}
+div.account-user{
+    text-align: right;
+}
+ul.top-user{
+    float: left;
+}
+div.cart-top-user{
+    float: right;
+}
+.box-cart {
+    background: #3ab54a;
+    border-radius: 3px;
+}
+.box-cart > a {
+    color: #fff;
+    padding: 0 8px;
+}
+.cart-info.dropdown-menu {
+    box-shadow: none;
+    z-index: 10001;
+    padding-top: 0px;
+    width: 350px;
+    right: 0;
+    left: auto !important;
+    background: transparent;
+    border: none;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+ul#cart-sidebar {
+    background: #fff;
+    border-top: 3px solid #3ab54a;
+    padding: 15px 20px;
+    margin: 0;
+}
+div#cart-info > div {
+    background: #fff;
+    box-shadow: 1px 1px 1px #ddd;
+}
+
 @media (max-width: 1199px){
     div.phone-number > div{
         display: none;
