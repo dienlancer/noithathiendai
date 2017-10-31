@@ -19,9 +19,9 @@ body{font-size:13px;color:#333;background: #f1f1f1}
 table{max-width:100%;}
 p{margin:1em 0;}
 img{max-width:100%;}
-.clr{clear:both;}
+.clr{clear:both;margin:0 !important;padding: 0 !important}
 a{color: #333;}
-a:hover,a:focus{text-decoration:none;color:#f86b47;}
+a:hover,a:focus{text-decoration:none;color:#3AB54A;}
 ul{margin:0;padding:0;}
 ul li{margin-left:15px;}
 ol li{margin-left:15px;margin-bottom: 15px;}
@@ -298,9 +298,6 @@ div.box-product-button{
     margin:auto;
 
 }
-div.box-product-general-price{
-    margin-top: 15px;
-}
 div.box-product-general-button{
     margin-top: 15px;
 }
@@ -320,8 +317,7 @@ div.owl-carousel-product-sale-featured > div > div  > div:first-child{
 }
 div.box-product{
     background: #ffffff;
-    border-top: 1px solid #dddddd;
-    border-right: 1px solid #dddddd;
+    border: 1px solid #dddddd;
     padding-bottom: 20px;
 }
 div.tabcontent div.box-product{
@@ -362,12 +358,12 @@ span.remain-icon > i {
     margin-right: 12px;
 }
 div.product-img{
-    padding: 0 1px;
-    margin:auto;
+        padding: 0px 10px;
+    margin: auto;
+    position: relative;
 }
 div.product-kemma{
-    border-left:1px solid #dddddd;
-    border-bottom: 1px solid #dddddd;
+
 }
 h2.rau-sach-index{
     background: #A0CB00;
@@ -391,10 +387,11 @@ div.category-list-index > div > ul > li > a{
 }
 div.product-kemma > div:first-child{
     float: left;
-    width: 234px;
+    width: 272px;
 }
 div.product-kemma > div:nth-child(2){
-    margin-left: 234px;
+        float: right;
+    width: 880px;
 }
 h2.top-sales-header{
         text-transform: uppercase;
@@ -408,7 +405,7 @@ h2.top-sales-header{
     
 }
 div.product-kemma{
-    background: #ffffff;
+    background:transparent;
 }
 div.product-index-name{
     margin-top: 15px;
@@ -424,7 +421,7 @@ div.product-index{
     border-top: 1px solid #dddddd;    
 }
 div.category-list-index{
-    height: 219px;
+    
 }
 div.product-wrapper{
     border-top: 1px solid #dddddd;
@@ -802,6 +799,65 @@ div.header-title > h4{
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+}
+div.cate-product-horizontal-right{
+    padding-top: 15px;
+    padding-bottom: 15px;
+        background: #ffffff;
+}
+div.product-sale-shop > div{
+    margin-top: 15px;
+}
+div.product-sale-shop > div:nth-child(1),
+div.product-sale-shop > div:nth-child(2),
+div.product-sale-shop > div:nth-child(3),
+div.product-sale-shop > div:nth-child(4){
+    margin-top: 0 ;
+}
+div.box-product-title > a{
+    font-family: 'baomoi';
+    font-weight: bold;
+    font-size: 14px;
+}
+div.box-product-general-price{
+    font-family: 'baomoi';    
+}
+span.price-regular{
+    text-decoration: line-through;
+    color: #888;            
+}
+span.price-sale{
+    color: #f48549;
+    font-size: 16px;
+    font-weight: bold;    
+}
+div.box-product-star{
+    color: rgb(255, 190, 0);
+    text-align: center;
+}
+div.them-vao-gio-hang{
+        position: relative;
+    background: url('../images/bg-them-vao-gio-hang.png');
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'baomoi';
+    padding: 5px 10px;
+    width: 130px;
+    margin: auto;
+}
+div.them-vao-gio-hang > a{
+    color: #ffffff;
+}
+div.product-img:hover > div{
+    display: block;
+} 
+div.box-product-add-to-cart{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    display: none;
 }
 @media (max-width: 1199px){
     div.phone-number > div{

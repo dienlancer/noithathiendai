@@ -37,7 +37,7 @@ function zendvn_theme_support(){
 }
 add_action('widgets_init', 'zendvn_theme_widgets_init');
 function zendvn_theme_widgets_init(){	
-	$themeName="noithatkimcuong";	
+	$themeName="dienkimtheme";	
 	register_sidebar(array(
 		'name'          => __( 'UserTop', $themeName ),
 		'id'            => 'user-top-widget',		
@@ -182,15 +182,7 @@ function zendvn_theme_widgets_init(){
 		'after_title'   => '</h3>',
 		'after_widget'  => '</div>'				
 	));
-	register_sidebar(array(
-		'name'          => __( 'TopThucPhamBanChay_1', $themeName ),
-		'id'            => 'top-ban-chay-1-widget',		
-		'class'         => '',
-		'before_widget' => '<div id="%1$s" class="%2$s">',
-		'before_title'  => '<h2 class="top-sales-header h-title">',
-		'after_title'   => '</h2>',
-		'after_widget'  => '</div>'				
-	));
+	
 	register_sidebar(array(
 		'name'          => __( 'RauSachWidget', $themeName ),
 		'id'            => 'rau-sach-widget',		
@@ -200,42 +192,7 @@ function zendvn_theme_widgets_init(){
 		'after_title'   => '</h2>',
 		'after_widget'  => '</div>'				
 	));
-	register_sidebar(array(
-		'name'          => __( 'TopThucPhamBanChay_2', $themeName ),
-		'id'            => 'top-ban-chay-2-widget',		
-		'class'         => '',
-		'before_widget' => '<div id="%1$s" class="%2$s">',
-		'before_title'  => '<h2 class="top-sales-header h-title">',
-		'after_title'   => '</h2>',
-		'after_widget'  => '</div>'				
-	));
-	register_sidebar(array(
-		'name'          => __( 'ThitHaiSanWidget', $themeName ),
-		'id'            => 'thit-hai-san-widget',		
-		'class'         => '',
-		'before_widget' => '<div id="%1$s" class="%2$s">',
-		'before_title'  => '<h2 class="top-sales-header h-title">',
-		'after_title'   => '</h2>',
-		'after_widget'  => '</div>'				
-	));
-	register_sidebar(array(
-		'name'          => __( 'TopThucPhamBanChay_3', $themeName ),
-		'id'            => 'top-ban-chay-3-widget',		
-		'class'         => '',
-		'before_widget' => '<div id="%1$s" class="%2$s">',
-		'before_title'  => '<h2 class="top-sales-header h-title">',
-		'after_title'   => '</h2>',
-		'after_widget'  => '</div>'				
-	));
-	register_sidebar(array(
-		'name'          => __( 'ThucPhamKhoWidget', $themeName ),
-		'id'            => 'thuc-pham-kho-widget',		
-		'class'         => '',
-		'before_widget' => '<div id="%1$s" class="%2$s">',
-		'before_title'  => '<h2 class="top-sales-header h-title">',
-		'after_title'   => '</h2>',
-		'after_widget'  => '</div>'				
-	));
+		
 	register_sidebar(array(
 		'name'          => __( 'CustomerWidget', $themeName ),
 		'id'            => 'customer-widget',		
@@ -260,7 +217,7 @@ function zendvn_theme_widgets_init(){
 		'class'         => '',
 		'before_widget' => '<div id="%1$s" class="%2$s">',
 		'before_title'  => '<h3 class="page-title-left h-title">',
-		'after_title'   => '</h1>',
+		'after_title'   => '</h3>',
 		'after_widget'  => '</div>'				
 	));		
 	register_sidebar(array(
@@ -269,7 +226,7 @@ function zendvn_theme_widgets_init(){
 		'class'         => '',
 		'before_widget' => '<div id="%1$s" class="%2$s">',
 		'before_title'  => '<h3 class="page-title-left h-title">',
-		'after_title'   => '</h1>',
+		'after_title'   => '</h3>',
 		'after_widget'  => '</div>'				
 	));		
 	register_sidebar(array(
@@ -278,7 +235,25 @@ function zendvn_theme_widgets_init(){
 		'class'         => '',
 		'before_widget' => '<div id="%1$s" class="%2$s">',
 		'before_title'  => '<h3 class="page-title-left h-title">',
-		'after_title'   => '</h1>',
+		'after_title'   => '</h3>',
+		'after_widget'  => '</div>'				
+	));		
+	register_sidebar(array(
+		'name'          => __( 'ThietBiVeSinhWidget', $themeName ),
+		'id'            => 'thiet-bi-ve-sinh-widget',		
+		'class'         => '',
+		'before_widget' => '<div id="%1$s" class="%2$s">',
+		'before_title'  => '<h3 class="page-title-left h-title">',
+		'after_title'   => '</h3>',
+		'after_widget'  => '</div>'				
+	));	
+	register_sidebar(array(
+		'name'          => __( 'ThietBiBepWidget', $themeName ),
+		'id'            => 'thiet-bi-bep-widget',		
+		'class'         => '',
+		'before_widget' => '<div id="%1$s" class="%2$s">',
+		'before_title'  => '<h3 class="page-title-left h-title">',
+		'after_title'   => '</h3>',
 		'after_widget'  => '</div>'				
 	));		
 }
@@ -411,6 +386,10 @@ function zendvn_theme_register_style(){
 	wp_register_style('tab',get_template_directory_uri() . '/css/tab.css',array(),'1.0','all');
 	wp_enqueue_style('tab');
 	/*end tab*/
+	/*begin menu-horizontal-right*/
+	wp_register_style('menuhorizontalright',get_template_directory_uri() . '/css/menu-horizontal-right.css',array(),'1.0','all');
+	wp_enqueue_style('menuhorizontalright');
+	/*end menu-horizontal-right*/
 	wp_register_style('template',get_template_directory_uri() . '/css/template.css',array(),'1.0','all');
 	wp_enqueue_style('template');	
 	wp_register_style('custom',get_template_directory_uri() . '/css/custom.css',array(),'1.0','all');

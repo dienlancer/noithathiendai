@@ -19,81 +19,58 @@
     <div class="container main">
         <div class="header-title">
             <h4><span><font color="#3AB54A">Danh mục</font></span> sản phẩm</h4>               
-        </div>
-        <script type="text/javascript" language="javascript">
-            jQuery(document).ready(function(){
-                jQuery(".owl-carousel-rau-sach-thit-hai-san-thuc-pham-kho").owlCarousel({
-                    autoplay:false,                    
-                    loop:true,
-                    margin:0,                        
-                    nav:true,                                            
-                    responsiveClass:true,
-                    responsive:{
-                        0:{
-                            items:1,
-                            nav:true
-                        },
-                        600:{
-                            items:4,
-                            nav:false
-                        },
-                        1000:{
-                            items:4,
-                            nav:true,
-                            loop:false
-                        }
-                    }
-                })
-            });                
-        </script>    
-        <div class="margin-top-15">
-            <div class="product-kemma">
-                <div>
-                    <div class="category-list-index">
-                        <h2 class="rau-sach-index h-title">Rau sạch</h2>
-                        <div>
-                            <?php     
-                            $args = array( 
-                                'menu'              => '', 
-                                'container'         => '', 
-                                'container_class'   => '', 
-                                'container_id'      => '', 
-                                'menu_class'        => 'rausachmenu', 
-                                'menu_id'           => 'rau-sach-menu', 
-                                'echo'              => true, 
-                                'fallback_cb'       => 'wp_page_menu', 
-                                'before'            => '', 
-                                'link_before'       => '<i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;', 
-                                'after'             => '', 
-                                'link_after'        => '', 
-                                'items_wrap'        => '<ul id="%1$s" class="%2$s">%3$s</ul>',  
-                                'depth'             => 3, 
-                                'walker'            => '', 
-                                'theme_location'    => 'rau-sach-menu' 
-                            );
-                            wp_nav_menu($args);
-                            ?>                                        
-                        </div>
-                    </div>  
-                    <?php if(is_active_sidebar('top-ban-chay-1-widget')):?>
-                        <?php dynamic_sidebar('top-ban-chay-1-widget')?>
-                    <?php endif; ?>               
+        </div>        
+        <div class="margin-top-15 product-kemma">            
+            <div>                
+                <div class="cate-product-horizontal-right">
+                    <?php     
+                    $args = array( 
+                        'menu'              => '', 
+                        'container'         => '', 
+                        'container_class'   => '', 
+                        'container_id'      => '', 
+                        'menu_class'        => 'cateprodhorizontalright', 
+                        'menu_id'           => 'cate-prod-horizontal-right', 
+                        'echo'              => true, 
+                        'fallback_cb'       => 'wp_page_menu', 
+                        'before'            => '', 
+                        'link_before'       => '<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;', 
+                        'after'             => '', 
+                        'link_after'        => '<i class="fa fa-caret-down pull-right" aria-hidden="true"></i>', 
+                        'items_wrap'        => '<ul id="%1$s" class="%2$s">%3$s</ul>',  
+                        'depth'             => 3, 
+                        'walker'            => '', 
+                        'theme_location'    => 'rau-sach-menu' 
+                    );
+                    wp_nav_menu($args);
+                    ?>    
+                    <div class="clr"></div>                                    
                 </div>
-                <div>
-                    <div><center><img src="<?php echo site_url( '/wp-content/uploads/dua-chuot-da-lat.png', null ); ?>" /></center></div>
-                    <div>
-                        <?php if(is_active_sidebar('rau-sach-widget')):?>
-                        <?php dynamic_sidebar('rau-sach-widget')?>
-                        <?php endif; ?>    
-                    </div>
-                </div>
-                <div class="clr"></div>
+                <div class="margin-top-15"><center><img  src="<?php echo site_url( '/wp-content/uploads/noi-that-sang-trong.jpg',null ); ?>" /></center></div>                
             </div>
+            <div>                               
+                <?php if(is_active_sidebar('rau-sach-widget')):?>
+                    <?php dynamic_sidebar('rau-sach-widget')?>
+                <?php endif; ?>                    
+            </div>                    
+            <div class="clr"></div>   
+        </div>  
+        <div class="header-title">
+            <h4><span><font color="#3AB54A">Thiết bị</font></span> vệ sinh</h4>                          
+        </div>  
+        <div class="margin-top-15">
+            <?php if(is_active_sidebar('thiet-bi-ve-sinh-widget')):?>
+                <?php dynamic_sidebar('thiet-bi-ve-sinh-widget')?>
+            <?php endif; ?>  
         </div>
-        
-        <?php if(is_active_sidebar('partner-widget')):?>
-            <?php dynamic_sidebar('partner-widget')?>
-        <?php endif; ?>  
+        <div class="header-title">
+            <h4><span><font color="#3AB54A">Thiết bị</font></span> bếp</h4>                          
+        </div>  
+        <div class="margin-top-15">
+            <?php if(is_active_sidebar('thiet-bi-bep-widget')):?>
+                <?php dynamic_sidebar('thiet-bi-bep-widget')?>
+            <?php endif; ?>  
+        </div>
     </div>    
     <div class="register-mail-bg margin-top-15">
         <div class="container padding-top-15 padding-bottom-15">
