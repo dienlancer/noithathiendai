@@ -13,17 +13,18 @@ function wp_nav_menu_link( $atts, $item, $args ) {
 add_action('init', 'zendvn_theme_register_menus');
 function zendvn_theme_register_menus(){
 	register_nav_menus(
-		array(			
-			'footer-menu' 			=> __('Footer menu'),
+		array(						
 			'main-menu' 			=> __('Main menu'),
 			'mobile-menu' 			=> __('Mobile menu'),
 			'dropdown-menu' 		=> __('Dropdownmenu'),
-			'rau-sach-menu' 		=> __('Rau sạch'),
-			'thit-hai-san-menu' 	=> __('Thịt hải sản'),
-			'thuc-pham-kho-menu' 	=> __('Thực phẩm khô'),		
+			'rau-sach-menu' 		=> __('Rau sạch'),			
 			'support-menu' 			=> __('Hỗ trợ'),		
+			'direction-menu' 			=> __('Hướng dẫn'),		
+			'policy-menu' 			=> __('Chính sách'),		
+			'about-us-menu' 			=> __('Tại sao chọn chúng tôi'),		
 			'category-article-menu' => __('Danh mục bài viết'),	
 			'category-product-menu' => __('Danh mục sản phẩm'),			
+			'bottom-menu' => __('Bottom menu'),			
 		)
 	);
 }
