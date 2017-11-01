@@ -86,7 +86,7 @@ table td{padding-left:10px;padding-bottom:10px;}
 .readmore{font-weight:bold;font-style:italic;color:#FC6500;float:right;}
 .readmore:hover{text-decoration:underline;}
 .fancybox-custom .fancybox-skin{box-shadow:0 0 50px #222;}
-.btn{background:#F96B48;border-color:#F96B48;}
+.btn{background:#3AB54A;border-color:#3AB54A;}
 figure{overflow:hidden;position:relative;display:inline-block;vertical-align:top;}
 figure img{-webkit-transition:all 0.5s linear;transition:all 0.5s linear;-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1);}
 figure:hover img{-webkit-transform:scale3d(1.2, 1.2, 1);transform:scale3d(1.2, 1.2, 1);}
@@ -100,12 +100,20 @@ figure:hover img{-webkit-transform:scale3d(1.2, 1.2, 1);transform:scale3d(1.2, 1
 div.mobilemenu{
     display: none;
 }
+div.mobile-search{
+    display: none;
+}
 @media (max-width: 768px){
     div.mobilemenu{
         display: block;
     }
     div.menu{
         display: none;
+    }
+    div.mobile-search{
+            display: block;
+    position: relative;
+    padding:0px 0px 40px 0px;
     }
 }
 @media(max-width: 1199px){
@@ -114,35 +122,41 @@ div.mobilemenu{
     }
 
 }
-.navbar-default {
-    background: #904000;
+.navbar-default {    
+    background: #3AB54A;
     border: 0;
 }
 .navbar-default .navbar-toggle{
     border: 1px solid #ffffff
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-     background: #904000;
+     background:#3AB54A;
 }
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
-
 .navbar-default .navbar-nav  li  a{
-    color: #ffffff;
+   color: #ffffff;
     text-transform: uppercase;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 30px;
-    display: block;
-    
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: block;    
 }
-.navbar-default .navbar-nav > li{
-    border-bottom: 1px solid #7c3700;
+.navbar{
+    margin-bottom: 5px;
+}
+ul.navbar-nav > li:first-child > a{
+    border: 0;
+    padding-top: 3px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: 0
+}
+.navbar-default .navbar-nav > li > a{
+   border-top: 1px solid #47cb58;
 }
 .navbar-default .navbar-nav > li  a:hover{
-        color: #D41010;    
+    color: #D41010;    
 }
 .navbar-nav,.navbar-nav ul{
     list-style: none;
@@ -419,7 +433,10 @@ div.product-index-status{
     margin-top: 5px;
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
+  
+}
+div.box-product-thumbnail{
+    border:1px solid #dddddd;
 }
 div.product-index{
     border-top: 1px solid #dddddd;    
@@ -554,7 +571,7 @@ h3.page-title{
         text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    background: #F86B47;
+    background: #3AB54A;
     color: #ffffff;
     padding: 15px 10px;
     
@@ -574,7 +591,7 @@ h3.page-title-left {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    background:#A0CB00;
+    background:#4CA7D6;
     color: #ffffff;
     padding: 15px 10px;
 }
@@ -646,8 +663,9 @@ div.box-product-detail{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 div.information-pane {
-    background: #a0cb00;
+    background: #3AB54A;
     float: left;
     color: #ffffff;
     padding: 5px 10px;
@@ -668,7 +686,7 @@ input.quantity{
 }
 input.add-to-cart {
     color: #fff;
-    background-color: #a0cb00;
+    background-color:#3AB54A;
     padding: 5px 10px 5px 10px;
     display: block;
     border: 0;
@@ -1023,6 +1041,10 @@ div.box-footer > div {
     border-left: solid 1px #2d2d2d;
     border-right: solid 1px #2d2d2d;
 }
+div.warasocial{
+    width: 166px;
+    margin: auto;    
+}
 @media (max-width: 1199px){
     div.phone-number > div{
         display: none;
@@ -1064,6 +1086,38 @@ div.box-footer > div {
     }
     nav.header-action{
         text-align: center;
+    }
+    div.thiet-bi-ve-sinh-cao-cap-banner > div:last-child{
+    padding: 0
+    }
+    ul.cateprodhorizontalright li.menu-item-has-children:hover ul{
+        display: none;
+    }
+    div.product-kemma > div:first-child{
+        width: 100%;
+    }
+    div.product-kemma > div:nth-child(2){
+        width: 100%
+    }
+    div.product-sale-shop > div:nth-child(1), div.product-sale-shop > div:nth-child(2), div.product-sale-shop > div:nth-child(3), div.product-sale-shop > div:nth-child(4){
+        margin-top: 15px;
+    }
+    div.menu-bottom{
+        display: none;
+    }
+    div.box-footer > div{
+        margin-top: 15px
+    }
+    div.box-footer > div:first-child{
+        margin-top: 0px
+    }
+    div.map{            
+        top: 0;
+        right: 0;        
+        width: 296px;
+    }
+    div.bg-header {    
+        padding: 2px 0px;
     }
 }
 

@@ -65,7 +65,7 @@ if($instance["status"]=='active'){
 					<div class="clr"></div>
 				</div>        
 			</div>
-			<div class="container">
+			<div class="container thiet-bi-ve-sinh-cao-cap-banner">
 				<div class="col-lg-8 no-padding"><img src="<?php echo site_url( '/wp-content/uploads/t5.jpg',null ); ?>" /></div>
 				<div class="col-lg-4 no-padding-right"><img src="<?php echo site_url( '/wp-content/uploads/t6.jpg',null ); ?>" /></div>
 			</div>

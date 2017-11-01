@@ -2,6 +2,22 @@
 	/*
 	 Template Name: HomePage
 	 */	 
+     global $zendvn_sp_settings;
+     $contacted_phone=$zendvn_sp_settings['contacted_phone'];
+$email_to=$zendvn_sp_settings['email_to'];
+$address=$zendvn_sp_settings['address'];
+$to_name=$zendvn_sp_settings['to_name'];
+$telephone=$zendvn_sp_settings['telephone'];
+$website=$zendvn_sp_settings['website'];
+$opened_time=$zendvn_sp_settings['opened_time'];
+$opened_date=$zendvn_sp_settings['opened_date'];
+$contaced_name=$zendvn_sp_settings['contacted_name'];
+$facebook_url=$zendvn_sp_settings['facebook_url'];
+$twitter_url=$zendvn_sp_settings['twitter_url'];
+$google_plus=$zendvn_sp_settings['google_plus'];
+$youtube_url=$zendvn_sp_settings['youtube_url'];
+$instagram_url=$zendvn_sp_settings['instagram_url'];
+$pinterest_url=$zendvn_sp_settings['pinterest_url'];   
      ?>
      <?php get_header();     ?>
      <div class="container">
@@ -80,7 +96,7 @@
                 <div class="mail-subscribe">email để support@megashop.com</div>
                 <div class="box-register-email margin-top-5">              
                     <div class="subscribe-email">
-                        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                        <form action="#" method="post"  name="mc-embedded-subscribe-form" target="_blank">
                             <input type="email" value="" placeholder="Email của bạn" name="EMAIL" id="mail" aria-label="general.newsletter_form.newsletter_email">
                             <button name="subscribe" id="subscribe">Gửi ngay</button>
                         </form>
@@ -136,15 +152,15 @@
         <div class="container">
             <div class="col-lg-4 no-padding">
                 <div>
-                    <div class="col-xs-3 no-padding"><span class="follow-us">Follow us</span></div>
-                    <div class="col-xs-9 no-padding">
-                        <ul class="social-block ">
-                            <li class="facebook"><a class="_blank" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li class="twitter"><a class="_blank" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <div class="col-lg-3 no-padding"><center><span class="follow-us">Follow us</span></center></div>
+                    <div class="col-lg-9 no-padding">
+                        <div class="warasocial"><ul class="social-block ">
+                            <li class="facebook"><a class="_blank" href="<?php echo $facebook_url; ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="twitter"><a class="_blank" href="<?php echo $twitter_url; ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             <li class="rss"><a class="_blank" href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
-                            <li class="google_plus"><a class="_blank" href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                            <li class="pinterest"><a class="_blank" href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
+                            <li class="google_plus"><a class="_blank" href="<?php echo $google_plus; ?>" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="pinterest"><a class="_blank" href="<?php echo $pinterest_url; ?>" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                        </ul></div>                        
                     </div>
                 </div>                
             </div>

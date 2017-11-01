@@ -96,7 +96,7 @@ foreach($arrCart as $cart){
                     </div>                    
                     <div class="col-lg-3 no-padding">
                         <div class="mini-cart dropdown box-cart cart hidden-xs">
-                            <a href="<?php echo $cart_link; ?>" class="dropdown-toggle basket" data-toggle="dropdown" data-hover="dropdown">
+                            <a href="<?php echo $cart_link; ?>" >
                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Giỏ hàng
                                 <span class="cart-total"><?php echo $quantity; ?></span>
                             </a>                            
@@ -154,7 +154,7 @@ foreach($arrCart as $cart){
             <div class="clr"></div>      
         </div>      
     </div>    
-</div>    
+</div>   
 <div class="mobilemenu">
     <div class="container">
         <div>
@@ -196,6 +196,16 @@ foreach($arrCart as $cart){
         </div>
     </div>
 </div>
+<div class="mobile-search">                    
+                    <div class="box-search">
+                        <form action="<?php echo $search_link; ?>" method="get">
+                            <input type="text" name="q" autocomplete="off" placeholder="Tìm kiếm sản phẩm" value="">
+                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="clr"></div>
+                </div>   
 </header>
 
 
