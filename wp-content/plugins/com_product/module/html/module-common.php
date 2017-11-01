@@ -15,6 +15,7 @@ $twitter_url=$zendvn_sp_settings['twitter_url'];
 $google_plus=$zendvn_sp_settings['google_plus'];
 $youtube_url=$zendvn_sp_settings['youtube_url'];
 $slogan_about=$zendvn_sp_settings['slogan_about'];
+$ban_do=$zendvn_sp_settings['ban_do'];
 if($instance["status"]=='active'){
 	switch ($instance["position"]) {
 		case 'tu-van-widget':			
@@ -160,6 +161,40 @@ if($instance["status"]=='active'){
 			?>
 		</div>		
 		<?php		
+		break;
+		case 'map-widget':
+		?>
+		<div class="relative megashop-map">
+        <iframe src="<?php echo $ban_do; ?>" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="map">
+            <div>
+                <div class="col-xs-2 no-padding"><center><img src="<?php echo site_url('/wp-content/uploads/icon_shop.png'); ?>" /></center></div>
+                <div class="col-xs-10 no-padding-right">
+                    <div class="shop-name">MEGASHOP</div>
+                    <div class="slogan-title">Nội thất hiện đại</div>
+                </div>
+                <div class="clr"></div>
+            </div>
+            <div class="address-phone-email">
+                <div class="col-xs-2 no-padding"><div class="icon"><center><i class="fa fa-map-marker"></i></center></div></div>
+                <div class="col-xs-10 no-padding-right"><?php echo $address; ?></div>
+                <div class="clr"></div>
+            </div>
+            <div class="address-phone-email">
+                <div class="col-xs-2 no-padding"><div class="icon"><center><i class="fa fa-envelope-o"></i></center></div></div>
+                <div class="col-xs-10 no-padding-right phone-email-padding">Phone:
+                <?php echo $contacted_phone; ?></div>
+                <div class="clr"></div>
+            </div>
+            <div class="address-phone-email">
+                <div class="col-xs-2 no-padding"><div class="icon"><center><i class="fa fa-phone"></i></center></div></div>
+                <div class="col-xs-10 no-padding-right phone-email-padding">Email:
+                <?php echo $email_to; ?></div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </div>   
+		<?php
 		break;
 	}
 }		

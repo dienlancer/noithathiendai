@@ -104,7 +104,34 @@
     </div>     
     <?php if(is_active_sidebar('customer-widget')):?>
                     <?php dynamic_sidebar('customer-widget')?>
-    <?php endif; ?>   
+    <?php endif; ?> 
+    <div class="cleverhouse padding-bottom-15">
+        <div class="container">
+            <div class="header-title">
+                <h4><span><font color="#3AB54A">Tin</font></span>&nbsp;mới</h4>                          
+            </div>  
+            <div class="margin-top-15">
+                <?php if(is_active_sidebar('hot-news-widget')):?>
+                    <?php dynamic_sidebar('hot-news-widget')?>
+                <?php endif; ?>  
+            </div>
+        </div>   
+    </div>     
+    <div class="cleverhouse padding-bottom-15">
+        <div class="container">
+            <div class="header-title">
+                <h4><span><font color="#3AB54A">Đối</font></span>&nbsp;tác</h4>                          
+            </div>  
+            <div class="margin-top-15">
+                <?php if(is_active_sidebar('partner-widget')):?>
+                    <?php dynamic_sidebar('partner-widget')?>
+                <?php endif; ?>  
+            </div>
+        </div>   
+    </div>  
+    <?php if(is_active_sidebar('map-widget')):?>
+                    <?php dynamic_sidebar('map-widget')?>
+    <?php endif; ?>      
     <?php get_footer(); ?>
     <?php wp_footer();?>
 </body>

@@ -162,6 +162,10 @@ div.nivo-controlNav{
 div.owl-nav{
     display: none;
 }
+.relative{
+    position: relative;
+}
+
 /* end standard */
 
 .logo {
@@ -876,7 +880,7 @@ div.cleverhouse{
     background: #ffffff
 }
 div.twitter{
-    background: url(../images/twitter-bg.jpg);
+    background: url('../images/twitter-bg.jpg');
     padding: 125px 0px
 }
 div.user-info-blog-comment{
@@ -889,6 +893,55 @@ div.user-comment-info{
 }
 div.comment{
     text-align: center;
+}
+div.hot-news-title{
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: url(../images/bg-them-vao-gio-hang.png);
+    width: 100%;
+    position: absolute;
+}
+div.hot-news-title > a{
+    color: #ffffff
+}
+div.map{
+        background: #3ab54a;
+    position: absolute;
+    padding: 20px;
+    top: 80px;
+    right: 90px;
+    font-family: 'baomoi';
+}
+div.megashop-map{
+    color: #ffffff
+}
+.map .icon{
+        height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.25);
+    line-height: 34px;
+    color: #ffffff;
+    margin: auto;
+}
+.contact-info .address .icon, .contact-info label {
+    display: inline-block;
+    vertical-align: middle;
+}
+div.address-phone-email{
+    margin-top: 15px;
+}
+div.phone-email-padding{
+    padding-top: 8px
+}
+div.shop-name{
+        font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+div.slogan-title{
+    font-weight: bold;
 }
 @media (max-width: 1199px){
     div.phone-number > div{

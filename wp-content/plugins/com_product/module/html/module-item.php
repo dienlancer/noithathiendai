@@ -27,6 +27,8 @@ if(!empty($instance['item_id'])){
 				);			 
 				$query = new WP_Query($args);		
 				if($query->have_posts()){
+					$k=1;
+                	$post_count=$query->post_count;
 					while ($query->have_posts()) {
 						$query->the_post();		
 						$post_id=$query->post->ID;							
@@ -37,14 +39,19 @@ if(!empty($instance['item_id'])){
 						$featureImg=$vHtml->getFileName($featureImg);
 						$featureImg=site_url('/wp-content/uploads/'.$featureImg ,null );  
 						?>
-						<div class="margin-top-15">
-							<div class="col-md-4 no-padding"><center><a title=""  href="<?php echo $permalink; ?>"><img src="<?php echo $featureImg; ?>" alt=""></a></center></div>
-							<div class="col-md-8 no-padding-right">
-								<div><a href="<?php echo $permalink; ?>"><?php echo substr($title, 0,250) . '...'; ?></a></div>
+						<div class="col-lg-3">
+							<div class="relative">
+								<a href="<?php echo $permalink; ?>"><img src="<?php echo $featureImg; ?>" /></a>
+								<div class="hot-news-title">
+									
+								</div>
 							</div>
-							<div class="clr"></div>
-						</div>																		
+						</div>																	
 						<?php
+						if($k%4 ==0 || $k==$post_count){
+							echo '<div class="clr"></div>';
+						}
+						$k++;
 					}
 					wp_reset_postdata();  
 				}
