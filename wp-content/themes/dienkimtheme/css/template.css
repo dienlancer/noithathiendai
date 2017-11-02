@@ -107,20 +107,24 @@ div.mobile-search{
     div.mobilemenu{
         display: block;
     }
-    div.menu{
-        display: none;
+    div.ddsmoothmenu{
+        display: none !important;
     }
-    div.mobile-search{
-            display: block;
-    position: relative;
-    padding:0px 0px 40px 0px;
+    div.desktop-box-search{
+        display: block;
+        position: relative;
+        padding:0px 0px 40px 0px;
+        width: 100%
     }
 }
-@media(max-width: 1199px){
+@media( min-width: 768px) and (max-width: 1199px){
     .ddsmoothmenu ul li a{
         padding:14px 9px;
     }
-
+    div.desktop-box-search{
+        width: 500px;
+    float: right;
+    }
 }
 .navbar-default {    
     background: #3AB54A;

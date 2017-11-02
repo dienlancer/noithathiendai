@@ -140,7 +140,7 @@ foreach($arrCart as $cart){
                 </div>                
             </div>
             <div class="col-lg-3 no-padding">
-                <div>                    
+                <div class="desktop-box-search">                    
                     <div class="box-search">
                         <form action="<?php echo $search_link; ?>" method="get">
                             <input type="text" name="q" autocomplete="off" placeholder="Tìm kiếm sản phẩm" value="">
@@ -196,7 +196,7 @@ foreach($arrCart as $cart){
         </div>
     </div>
 </div>
-<div class="mobile-search">                    
+<!--<div class="mobile-search">                    
                     <div class="box-search">
                         <form action="<?php echo $search_link; ?>" method="get">
                             <input type="text" name="q" autocomplete="off" placeholder="Tìm kiếm sản phẩm" value="">
@@ -206,6 +206,6 @@ foreach($arrCart as $cart){
                     </div>
                     <div class="clr"></div>
                 </div>   
-</header>
+</header>-->
 
 
