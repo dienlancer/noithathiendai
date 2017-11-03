@@ -205,7 +205,7 @@ foreach($arrCart as $cart){
                         <div class="clr"></div>
                     </div>
                     <div class="clr"></div>
-                </div>   
-</header>-->
+                </div>   -->
+</header>
 
 
