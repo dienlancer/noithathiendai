@@ -6,8 +6,11 @@ class SessionHelper{
 		if(!isset($_SESSION[$this->_ssName])){
 			$_SESSION[$this->_ssName] = array();
 		}else{
-			if($_SESSION[$this->_ssName][$value]["timeout"] + 216000 < time())
-				$this->reset();
+			if(isset($_SESSION[$this->_ssName][$value]["timeout"])){
+				if($_SESSION[$this->_ssName][$value]["timeout"] + 216000 < time()){
+					$this->reset();
+				}
+			}			
 		}		
 	}
 	public function set($name = null, $value = null){
