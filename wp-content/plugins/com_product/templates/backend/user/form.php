@@ -14,6 +14,7 @@
 	$action = ($zController->getParams('action') != '')? $zController->getParams('action'):'add';		
 	$lbl 	= 'User';				
 	$lblUsername 	=sanitize_text_field(@$zController->_data['username']);	
+	$inputPassword 	='<input type="password" id="password" name="password" class="regular-text" value="" />';	
 	$lblEmail 	=sanitize_text_field(@$zController->_data['email']);	
 	$inputFullname 	='<input type="text" id="fullname" name="fullname" class="regular-text" value="'.sanitize_text_field(@$zController->_data['fullname']).'" />';
 	$inputAddress 	='<input type="text" id="address" name="address" class="regular-text" value="'.sanitize_text_field(@$zController->_data['address']).'" />';
@@ -46,7 +47,11 @@
 				<tr>
 					<td scope="row"><b><i><label>Username</label></i></b></td>
 					<td><?php echo $lblUsername;?></td>
-				</tr>	
+				</tr>
+				<tr>
+					<td scope="row"><b><i><label>Password</label></i></b></td>
+					<td><?php echo $inputPassword;?></td>
+				</tr>				
 				<tr>
 					<td scope="row"><b><i><label>Email</label></i></b></td>
 					<td><?php echo $lblEmail;?></td>
