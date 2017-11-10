@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 10, 2017 lúc 11:39 AM
+-- Thời gian đã tạo: Th10 10, 2017 lúc 01:54 PM
 -- Phiên bản máy phục vụ: 10.1.22-MariaDB
 -- Phiên bản PHP: 7.1.4
 
@@ -2142,7 +2142,7 @@ CREATE TABLE `mp_shk_user` (
 --
 
 INSERT INTO `mp_shk_user` (`id`, `username`, `password`, `email`, `fullname`, `address`, `phone`, `mobilephone`, `fax`, `status`, `sort_order`) VALUES
-(1, 'lantv', '0e1e026e67faffed45ea15510822eb77', 'lantv@gmail.com', 'Trần Văn Lân', '132Nguyễn Thái Sơn , P.6 , Q. Gò Vấp , TP. Hồ Chí Minh', '0889715691', '0988953256', '8754887234', 1, 1);
+(1, 'lantv', 'e10adc3949ba59abbe56e057f20f883e', 'lantv@gmail.com', 'Trần Văn Lân', '132Nguyễn Thái Sơn , P.6 , Q. Gò Vấp , TP. Hồ Chí Minh', '0889715691', '0988953256', '8754887234', 1, 1);
 
 -- --------------------------------------------------------
 
