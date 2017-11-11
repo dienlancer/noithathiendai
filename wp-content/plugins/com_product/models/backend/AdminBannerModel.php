@@ -222,8 +222,25 @@ class AdminBannerModel extends WP_List_Table{
 			$id=(int)$_POST['id'];								
 		}		
 		$title=$_POST["title"];		
-		$alias=$_POST["alias"];
-		$image=$_POST["image"];
+		$alias=$_POST["alias"];		
+		$image_hidden=$_POST["image_hidden"];
+
+		$uploadDir = get_home_path()  ."wp-content".DS."uploads";                 
+		$fileObj=$_FILES["image"];          
+		$fileName="";
+		if($fileObj['tmp_name'] != null){                
+			$fileName   = $fileObj['name'];						
+			@copy($fileObj['tmp_name'], $uploadDir . DS . $fileName);                   
+		}   
+		$file_image="";   
+		$image="";                    
+		if(!empty($image_hidden)){
+			$file_image =$image_hidden;          
+		}
+		if(!empty($fileName))  {
+			$file_image=$fileName;                                                
+		}
+		$image=trim($file_image) ;  
 		$sort_order=(int)$_POST["sort_order"];
 		$status=(int)$_POST["status"];				
 		$table = $wpdb->prefix . 'shk_banner';		

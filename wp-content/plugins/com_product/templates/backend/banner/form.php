@@ -28,8 +28,18 @@
 			$id=(int)$zController->_data['id'];
 		}
 	}
+	$picture                =   "";
+	$strImage               =   "";
+	if(count($zController->_data > 0)){
+	    if(!empty(@$zController->_data["image"])){
+	        $picture        =   '<center>&nbsp;<img style="width:100%" src="'.site_url('wp-content/uploads/'.@$zController->_data["image"],null).'"  />&nbsp;</center>';                        
+	        $strImage       =   @$zController->_data["image"];
+	    }        
+	}    
+	$inputPictureHidden     =   '<input type="hidden" name="image_hidden" id="image_hidden" value="'.@$strImage.'" />';
 	$inputID                =   '<input type="hidden" name="id" id="id" value="'.@$id.'" />'; 
 	$action					=	'<input name="action" value="'.$action.'" type="hidden">				';
+
 ?>
 <div class="wrap">
 	<h1><?php echo $lbl;?></h1>
@@ -37,6 +47,7 @@
 	<form method="post" action="" id="<?php echo $page;?>"
 		enctype="multipart/form-data">
 		<?php echo $inputID; ?>
+		<?php echo $inputPictureHidden; ?>
 		<?php echo $action; ?>						
 		<?php wp_nonce_field($action,'security_code',true);?>				
 		<table class="content-form">
@@ -47,11 +58,7 @@
 				<tr>
 					<td scope="row"><b><i><label>Alias</label></i></b></td>
 					<td><?php echo $inputAlias;?></td>
-				</tr>					
-				<tr>
-					<td scope="row" valign="top"><b><i><label>Image</label></i></b></td>
-					<td><?php echo $inputImage;?></td>
-				</tr>			
+				</tr>										
 				<tr>
 					<td scope="row" valign="top"><b><i><label>SortOrder</label></i></b></td>
 					<td><?php echo $inputSortOrder;?></td>
@@ -61,6 +68,8 @@
 					<td><?php echo $ddlStatus;?></td>
 				</tr>							
 		</table>		
+		<input type="file" id="image" name="image"  />   
+		<?php echo $picture; ?>
 		<p class="submit">
 			<input name="submit" id="submit" class="button button-primary" value="Save Changes" type="submit">
 		</p>
