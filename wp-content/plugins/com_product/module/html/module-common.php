@@ -81,7 +81,7 @@ if($instance["status"]=='active'){
 				<div id="slider" class="nivoSlider"> 
 					<?php 
 					for($i=0 ; $i < count($lstbanner) ; $i++ ){
-						$banner=site_url('/wp-content/uploads/'.$lstbanner[$i]['picture']);
+						$banner=site_url('/wp-content/uploads/'.$lstbanner[$i]['image']);
 						?>
 						<img src="<?php echo $banner; ?>" data-thumb="<?php echo $banner; ?>" alt="" />     
 						<?php

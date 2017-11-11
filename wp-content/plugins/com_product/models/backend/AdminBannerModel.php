@@ -156,7 +156,7 @@ class AdminBannerModel extends WP_List_Table{
 				'cb'				=> '<input type="checkbox" />',
 				'name' 				=> 'Title',
 				"alias"				=> "Alias",	
-				"picture"			=> "Picture",	
+				"image"				=> "Image",	
 				"sort_order"		=> "Sort",								
 				'status' 			=> 'Status',
 				'id'				=> 'ID'
@@ -223,7 +223,7 @@ class AdminBannerModel extends WP_List_Table{
 		}		
 		$title=$_POST["title"];		
 		$alias=$_POST["alias"];
-		$picture=$_POST["picture"];
+		$image=$_POST["image"];
 		$sort_order=(int)$_POST["sort_order"];
 		$status=(int)$_POST["status"];				
 		$table = $wpdb->prefix . 'shk_banner';		
@@ -233,24 +233,24 @@ class AdminBannerModel extends WP_List_Table{
 				$query = "update `".$table."` set 
 							title 			= 	%s
 							, alias			=	%s	
-							, picture		=   %s
+							, image			=   %s
 							, sort_order	=   %d					
 							, status 		= 	%d 
 							where id 		=  	%d " ;
 				$info = $wpdb->prepare($query
 											,$title											
 											,$alias
-											,$picture
+											,$image
 											,$sort_order
 											,$status
 											,$id);
 				break;	
 			case "add":
-				$query="insert into `".$table."` (`title`,`alias`,`picture`,`sort_order`,`status`) values (%s,%s,%s,%d,%d) ";
+				$query="insert into `".$table."` (`title`,`alias`,`image`,`sort_order`,`status`) values (%s,%s,%s,%d,%d) ";
 				$info = $wpdb->prepare($query
 											,$title				
 											,$alias		
-											,$picture
+											,$image
 											,$sort_order					
 											,$status
 											);

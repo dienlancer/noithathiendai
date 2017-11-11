@@ -16,7 +16,7 @@
 	
 	$inputTitle 	='<input type="text" id="title" name="title" class="regular-text" value="'.sanitize_text_field(@$zController->_data['title']).'" />';	
 	$inputAlias 	='<input type="text" id="alias" name="alias" class="regular-text" value="'.sanitize_text_field(@$zController->_data['alias']).'" />';
-	$inputPicture 	='<input type="text" id="picture" name="picture" class="regular-text" value="'.sanitize_text_field(@$zController->_data['picture']).'" />';
+	$inputImage 	='<input type="text" id="image" name="image" class="regular-text" value="'.sanitize_text_field(@$zController->_data['image']).'" />';
 	$inputSortOrder 	='<input type="text" id="sort_order" name="sort_order" class="regular-text" value="'.sanitize_text_field(@$zController->_data['sort_order']).'" />';
 	$status                 =   (count(@$zController->_data) > 0) ? (int)@$zController->_data['status'] : 1 ;
 	$arrStatus              =   array(-1 => '- Select status -', 1 => 'Hiển thị', 0 => 'Ẩn');  
@@ -49,8 +49,8 @@
 					<td><?php echo $inputAlias;?></td>
 				</tr>					
 				<tr>
-					<td scope="row" valign="top"><b><i><label>Picture</label></i></b></td>
-					<td><?php echo $inputPicture;?></td>
+					<td scope="row" valign="top"><b><i><label>Image</label></i></b></td>
+					<td><?php echo $inputImage;?></td>
 				</tr>			
 				<tr>
 					<td scope="row" valign="top"><b><i><label>SortOrder</label></i></b></td>
