@@ -196,16 +196,6 @@ foreach($arrCart as $cart){
         </div>
     </div>
 </div>
-<!--<div class="mobile-search">                    
-                    <div class="box-search">
-                        <form action="<?php echo $search_link; ?>" method="get">
-                            <input type="text" name="q" autocomplete="off" placeholder="Tìm kiếm sản phẩm" value="">
-                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                        </form>
-                        <div class="clr"></div>
-                    </div>
-                    <div class="clr"></div>
-                </div>   -->
 </header>
 
 
